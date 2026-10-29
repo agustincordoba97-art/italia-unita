@@ -208,6 +208,58 @@
     .galeria{grid-template-columns:repeat(4,minmax(0,1fr)); grid-auto-rows:170px}
   }
 
+  /* ── 4. Galería con pie de foto y lightbox ───────────── */
+.galeria figure{
+  position:relative; margin:0; overflow:hidden;
+  border-radius:3px; cursor:zoom-in; background:#0006;
+}
+.galeria a.gal-link{display:block; width:100%; height:100%; color:inherit; text-decoration:none}
+.galeria a.gal-link:focus-visible{outline:2px solid var(--s-dorado); outline-offset:-2px}
+.galeria img{width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s ease}
+.galeria figure:hover img,
+.galeria figure:focus-within img{transform:scale(1.04)}
+.galeria figure::after{
+  content:""; position:absolute; inset:auto 0 0 0; height:55%;
+  background:linear-gradient(to top, rgba(10,15,12,.85), transparent);
+  opacity:0; transition:opacity .25s ease; pointer-events:none;
+}
+.galeria figure:hover::after,
+.galeria figure:focus-within::after{opacity:1}
+.galeria figcaption{
+  position:absolute; inset:auto 0 0 0; z-index:2;
+  padding:14px 16px; margin:0;
+  color:#fff; font:italic 500 14px/1.4 var(--serif);
+  opacity:0; transform:translateY(6px);
+  transition:opacity .25s ease, transform .25s ease;
+  pointer-events:none;
+}
+.galeria figure:hover figcaption,
+.galeria figure:focus-within figcaption{opacity:1; transform:none}
+
+.lightbox{
+  padding:0; border:0; background:rgba(10,15,12,.96); color:#fff;
+  width:min(95vw,1200px); max-width:none; max-height:92vh;
+}
+.lightbox::backdrop{background:rgba(10,15,12,.72); backdrop-filter:blur(3px)}
+.lightbox figure{margin:0; padding:32px 24px 24px; display:grid; gap:16px}
+.lightbox img{display:block; max-width:100%; max-height:calc(92vh - 140px); margin:0 auto; object-fit:contain}
+.lightbox figcaption{text-align:center; font:italic 500 clamp(14px,1.4vw,17px)/1.5 var(--serif); color:#e7e3d8}
+.lightbox button{
+  position:absolute; display:grid; place-items:center;
+  width:44px; height:44px; padding:0; border-radius:50%;
+  border:1px solid rgba(255,255,255,.4); background:rgba(255,255,255,.06); color:#fff;
+  font-size:22px; line-height:1; cursor:pointer;
+}
+.lightbox button:hover,
+.lightbox button:focus-visible{background:rgba(255,255,255,.22)}
+.lightbox-cerrar{top:10px; right:10px}
+.lightbox-prev{top:50%; left:10px; transform:translateY(-50%)}
+.lightbox-next{top:50%; right:10px; transform:translateY(-50%)}
+@media (max-width:600px){
+  .lightbox-prev, .lightbox-next{top:auto; bottom:12px; transform:none}
+  .lightbox-prev{left:12px}
+  .lightbox-next{right:12px}
+}
 </style>
 </head>
 <body>
@@ -410,19 +462,69 @@
       <div class="galeria-wrap">
         <div class="galeria-head">
           <h3 data-t="c-pag-19">Galería</h3>
-          <p data-t="c-pag-20">Fotografías e imágenes de Italia, su arte y la historia italiana de Gálvez.</p>
+          <p data-t="c-pag-20">Fotografías e imágenes de Italia, su arte.</p>
         </div>
         <div class="galeria">
-          <div class="ph g-alta g-ancha" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph g-alta" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph g-ancha" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph g-ancha" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
-          <div class="ph" aria-hidden="true"><svg><use href="#i-img"/></svg></div>
+          <figure class="g-alta g-ancha">
+            <a href="img/galeria/italia%20(1).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(1).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 1</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeria/italia%20(2).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(2).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 2</figcaption>
+          </figure>
+          <figure class="g-alta">
+            <a href="img/galeria/italia%20(3).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(3).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 3</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeria/italia%20(4).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(4).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 4</figcaption>
+          </figure>
+          <figure class="g-ancha">
+            <a href="img/galeria/italia%20(5).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(5).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 5</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeria/italia%20(6).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(6).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 6</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeria/italia%20(7).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(7).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 7</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeria/italia%20(8).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(8).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 8</figcaption>
+          </figure>
+          <figure class="g-ancha">
+            <a href="img/galeria/italia%20(9).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(9).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 9</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeria/italia%20(10).jpeg" class="gal-link" aria-label="Ampliar imagen">
+              <img src="img/galeria/italia%20(10).jpeg" loading="lazy" decoding="async" alt="">
+            </a>
+            <figcaption>Italia 10</figcaption>
+          </figure>
         </div>
       </div>
     </div>
@@ -1039,5 +1141,60 @@
   seleccionar(REGION_INICIAL, { anunciar:false });
 </script>
 
+  <!-- Lightbox de la galería -->
+  <dialog id="gal-lightbox" class="lightbox" aria-label="Visor de imágenes">
+    <button type="button" class="lightbox-cerrar" aria-label="Cerrar">×</button>
+    <button type="button" class="lightbox-prev" aria-label="Imagen anterior">‹</button>
+    <button type="button" class="lightbox-next" aria-label="Imagen siguiente">›</button>
+    <figure>
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+  </dialog>
+
+  <script>
+  (() => {
+    const dlg = document.getElementById("gal-lightbox");
+    if (!dlg) return;
+    const img = dlg.querySelector("img");
+    const cap = dlg.querySelector("figcaption");
+    const items = [...document.querySelectorAll(".galeria a.gal-link")];
+    if (!items.length) return;
+    let idx = 0;
+
+    function mostrar(i){
+      idx = (i + items.length) % items.length;
+      const a = items[idx];
+      const fig = a.closest("figure");
+      const texto = (fig.querySelector("figcaption")?.textContent || "").trim();
+      img.src = a.href;
+      img.alt = texto;
+      cap.textContent = texto;
+      cap.hidden = !texto;
+    }
+
+    items.forEach((a, i) => {
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        mostrar(i);
+        dlg.showModal();
+      });
+    });
+
+    dlg.querySelector(".lightbox-cerrar").addEventListener("click", () => dlg.close());
+    dlg.querySelector(".lightbox-prev").addEventListener("click", () => mostrar(idx - 1));
+    dlg.querySelector(".lightbox-next").addEventListener("click", () => mostrar(idx + 1));
+
+    // Clic en el fondo oscuro (fuera del contenido) cierra
+    dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+
+    // Flechas ← → dentro del visor
+    dlg.addEventListener("keydown", e => {
+      if (e.key === "ArrowLeft") mostrar(idx - 1);
+      if (e.key === "ArrowRight") mostrar(idx + 1);
+    });
+  })();
+  </script>
+  
 </body>
 </html>
