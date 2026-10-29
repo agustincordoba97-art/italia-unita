@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5      # Node.js 24 (la v4 usaba Node.js 20, que GitHub da de baja)
 
       - name: Descargar titulares de Google News
         run: python3 scripts/actualizar_noticias.py
