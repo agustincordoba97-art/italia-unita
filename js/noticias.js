@@ -1,12 +1,12 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-10-29T17:55+00:00",
+  "actualizado": "2026-10-29T18:02+00:00",
   "items": [
     {
-      "titulo": "Poner un billete debajo del plato de ñoquis el día 29: para qué sirve y por qué lo recomiendan",
-      "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdFhwMkc2Y0ZGeW01eWtfZkZhNFVhcDBsdFgyemdlallITlpNM0JCblJoNzNmWlV2aXNTa1hodTR0VmtRbUxhVXluOW5hQzlvcExHQ2lfQVduRE9XYlhDWEVGV19JV3ZlSnRMeHV2dWZTVzU1Y2xRbW94cGlsSkhBbV9OaVVxUlUtdmF4dTQ4QlhUN3ZCemJ1NWFFVzdtM29qenJDanNlVl9KUlZXR3FFd1BZbV92aklpejJvLUdJYmxISGJXcUM2TUU4MmRnQmlRMmxGVFFOdVc?oc=5",
-      "medio": "Radio Mitre",
-      "fecha": "2026-10-29T15:48+00:00",
+      "titulo": "Sociedad Italiana de Salliqueló: 120 años de historia, cultura y compromiso con la comunidad",
+      "enlace": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41SnFmVURSLXZ0OFFZWnVyRUVZelBrTWRzNXNiNklWdVNwZXAxaEhFOXY0VkZFOTlUc0tIdzhLTzYyS1JlZF8wYjU5dkk1RURPS3RV?oc=5",
+      "medio": "Veradia.com",
+      "fecha": "2026-10-28T10:34+00:00",
       "tema": "Comunidad"
     },
     {
@@ -24,13 +24,6 @@ window.NOTICIAS = {
       "tema": "Cultura"
     },
     {
-      "titulo": "Sociedad Italiana de Salliqueló: 120 años de historia, cultura y compromiso con la comunidad",
-      "enlace": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41SnFmVURSLXZ0OFFZWnVyRUVZelBrTWRzNXNiNklWdVNwZXAxaEhFOXY0VkZFOTlUc0tIdzhLTzYyS1JlZF8wYjU5dkk1RURPS3RV?oc=5",
-      "medio": "Veradia.com",
-      "fecha": "2026-10-28T10:34+00:00",
-      "tema": "Patrimonio"
-    },
-    {
       "titulo": "Embajada de Italia beca a 20 agentes de Politur para fortalecer la atención a visitantes italianos",
       "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd3BLY1l5V0tsYWFfckx3Nnh3MDBIQzhsT3ktaVdib29SR0dYVXQ5R056LV8zd3h5XzJEYXlyT2dYOHl2Zm8yZ2pBSUhjZkJCLUd3MzJSSE9najVfdm9rS0thUTBBY0l4Vmd1V3NQXzlHQ2E0V1liRmpLQ3hBbGZFczc3WlREc3kyVzI4cGlrbzhIWUdNVjZ6dUNfcDdlOUpUdXZuVGM4N3dFSHdZUjVqStIBtgFBVV95cUxOREN5Ykl3eVpLUHBfQmpiYnEwOEJsWEtHc05kZVdKb2N5TkFGcnkxQWJ1VGhXLW5NblB4d0NDNEtyMXNJVEFmUXhleDdwZVZETUlSaEh6Q3g4eFZMUFlvS3gzc2ZaUTZueFA3MkxIenR5Y2syRlZrX1JFdHg3dEhfVkxCUldOU2NtdzZ3YWJacE1uVDNxYzd3UFFteFNBOXNJOWVuT0xENzd6T1VkOVFjODZhYy0ydw?oc=5",
       "medio": "Diario Libre",
@@ -38,11 +31,18 @@ window.NOTICIAS = {
       "tema": "Italia y Argentina"
     },
     {
-      "titulo": "Quién era Eulalia \"Lali\" Marzetti, la mamá de Lionel Scaloni: \"Soy lo que soy gracias a ellos\"",
-      "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWm81ZnE3V3pCeWtVbmdXcUFVclZlRlBmT2pUSUFlV0NfS2dDVDQyWWtxeUxaVlFLVGJxSXlNWU0zUXpMaUFzZFdHbmg4eDBTQ2VkUWFYNWJNSkR3SzBfSXBCa0U2SmktN2dqZlVIN0VDbEk5TXdIWU9wSU1HNlNwOHFKNEoxMFh6OGhrekRXQm8xaTA2X3ZaNUpja0Z4MUVGYVY5UDhFTFhoeDRiVEVuYzdvdk43TWstUmkxNmI1YjZBOTRtZXfSAcYBQVVfeXFMT1pvNWZxN1d6QnlrVW5nV3FBVXJWZUZQZk9qVElBZVdDX0tnQ1Q0MllrcXlMWlZRS1RicUl5TVlNM1F6TGlBc2RXR25oOHgwU0NlZFFhWDViTUpEd0swX0lwQmtFNkppLTdnamZVSDdFQ2xJOU13SFlPcElNRzZTcDhxSjRKMTBYejhoa3pEV0JvMWkwNl92WjVKY2tGeDFFRmFWOVA4RUxYaHg0YlRFbmM3b3ZON01rLVJpMTZiNWI2QTk0bWV3?oc=5",
-      "medio": "Minutouno",
-      "fecha": "2026-10-28T12:56+00:00",
+      "titulo": "Llegaron a la Patagonia para trabajar la tierra y terminaron cultivando el fruto seco más buscado por los chocolateros",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOLXZ6dVBSV3Q2VkVhbC1kT0NUVURrRHZUMzBaQXI2TjFXcjZjV2F5eG9xS1FfQ0hkS1h5NkkxVjh3UWpFcHZ2dFh6Ri1GNldYZUdoazNNTExhdUR1cG1aZzRYMUp1MkRvM3NsSjlPT3pRU1dRNFFfR0JDQWZyam9nRkVOZjAxYy1hVlpPUUlHUXZDbUYtdnItUGVUYjQxYlFHQlBCZDl0OTBFMXpsaDFCcFVxZ0lRNkNqbWRRY3oyREc2eGlWTW9lcHNKdk56SndlZmJSQW9VR2hrQU82SVNvR2ZBa9IB6AFBVV95cUxQMndmcmwxVU5rRlppYndkd2M2aXRuVmY1cWltbnJOWXkzVEtnOS1UZXNDZ2ZUQnVuRDlfQXR3TG50MW9LY3RxX21RTGVaQ3dmUFNmdzFWRWxRWVJxWlo0VFBFMldTSHpOaXpwUms4RkZkNF8wZko2amxOcXVVUlNaVEx4SHdUSU5kV3VMaVJiMU9YQVdlZ1pGaEs2X0ZPUGtHdVZNSWhkRXRYVk8zSjUyd0dZTUMzUjBRTW5SZkQ2RGlwOFliWFNSWGVuT2lLczJhaDF0dWxQaTNTb2kwbTNZUHJVYjhJNDI4?oc=5",
+      "medio": "Clarin.com",
+      "fecha": "2026-10-26T15:40+00:00",
       "tema": "Comunidad"
+    },
+    {
+      "titulo": "Consulado italiano suspende temporalmente citas para pasaportes y CIE",
+      "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQV9UaFBuXzB2aFJZaTQ3dGZoaXBiM2ljQzV5aGloQXRzT1hrUkR3ekRSU2FLYnQ1YzFPNEktZUdodWZKM0ZPQVZ0azJCeFY3TkZlWFJhb1Jpenc5NDFLMUhuZ1FCLV9TcmFxanViNTZYQ3A5ZU9zR2c2TnhnamFpZ0JHVTV4V3ZOOTVOaGpYSzVmb2xHbDVLcWo3ZnBzczNQR00wdFEzTzByZVloaHdwOFF5WHZJTUlTMjNIMjFjQzA2dDA?oc=5",
+      "medio": "Tenemos Noticias",
+      "fecha": "2026-10-28T19:06+00:00",
+      "tema": "Consulado"
     }
   ]
 };
