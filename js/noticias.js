@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-10-31T01:37+00:00",
+  "actualizado": "2026-10-31T15:45+00:00",
   "items": [
     {
       "titulo": "Un vecino de Allen entregó al cónsul de Italia una medalla histórica de 1870 que perteneció a su padre",
@@ -17,10 +17,10 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "Cine italiano toma protagonismo en el Festival Europeo de Puerto Rico",
-      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQT1Nud2JySmpzUzNnV1lkOWw2dW5CN0hEN3FabTlncEk4Ym41NWZWNGotZmxKakkxcncxQ0ozY1VETTJwZi1vTHdwOWRGS1ViQ2s0MnlTTzl5cWtqVklmNzczbUZ0VkNsUFktZ25UdHBrM1VpdTFPaTBMUVkwcjFFeUxOem4ySnBhZkRIYWZNdXZBaXdxb3F1VzBCWDkzb25IWEhUbWYwRUlkaElYbDBrdDJhVlNkUFRnM2ZoYmxsZjRYekpleTM3RkdCcmVTUmw4YkI5TE9SeWR4MUZqM1I4aVBsMmFqekdTYUHSAe8BQVVfeXFMTjNKdm02S2YxQVJXOXhka2ZpdlphTW9aSEFSMDFSOXFHbEF0TmpHSXBJaE1HTzVqRDlVVGV6UUlQTkcweFpGcjBhV29FYkRfb2dtOTJtX3ZBX2hfR2NCVElXdE1qZUJYaVI4aS1sc25WLWN3OHZtVnZoYlpoQ2RxMHhPYlJuZGQxaDdsdVlncHF4ZE9BeVNjQ0FYVGJtRGpxSGJVVGZvYnFQZ1FuR0xCUXdSRVZ1YXotYjUwc1dFbkx3THlPUEtKU21TZWVzRXRDbVVXeFY3TkEwNDlmU293VjhCQzkzbWpPUHZHYVY3YjA?oc=5",
-      "medio": "El Vocero de Puerto Rico",
-      "fecha": "2026-10-30T19:15+00:00",
+      "titulo": "Ritrovo, el restaurante de Mataró que fusiona la cocina italiana y peruana en un espacio donde gastronomía y cultura van de la mano",
+      "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOY2tKYmF2c2o4RHhQVnNELUZwMVJvckpMeVdyR01PaVJUdlBVZkp6Y1Y4Ml9rTnFRVlpQZnJscWFkdkhjRGRuRTE5RXFYb2tyZjdZM2cwQnZBOGUySDBqVlJIMGt2aGVfSTVuRTFWR0NHakZZNEc0SWVPeVotQ0J5TlVEaFJTNWdsTUpTc0NNeTYxWDEtRUJ1Y2xHLWF2VE1CMHVPUnY5U3NTMEYyLUNPZXdIVmJNQnluVGtXZjZybFU3ZkZOZjJMMXA5R29sejFmdHVURmRQMENtNjB4bThSclhOMjFGbmRYNGNoaEM4MzhsdmVwQzZZdjlCRWljOWFzTUNGUVY0bXJ4Tjc2cEHSAZsCQVVfeXFMT3RZbE5HTE04Z0stT3N2WmNCcGVtZlVRTHczNk1KUmhobk5QazRnQTNjUkxPazBUMk1IblNsN2NXeEV1eXJIT0JZRmhQekV4WDFrbnM3d0ZnZ1pTdlF4RmwxOGliM2h3ejN4ODNGV0NFYl85Z25iVnBUX1hncU9TQ1BnRnVCZDhCdVNXZnpBNkVXZzg5X3FKY2xmdjVQeDd1Y0VPM1RmSTBDVjVFZlNaMWJIc2JvNWpKMVAzZk42cjBfVExBT1FvekpyZThvcnh3dE5wekRLYUdpd3pfUG40X2d0TU1kdk5DRXJXTzJUTUc0N3prOUN1TURoajlpVU0xa0V1UThTamk4bTd5MzhydThWYld6czEwQS1OMA?oc=5",
+      "medio": "Mundo Deportivo",
+      "fecha": "2026-10-31T14:13+00:00",
       "tema": "Cultura"
     },
     {
