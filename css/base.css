@@ -22,6 +22,10 @@
   --s-radio-chico:4px;
   --s-radio:6px;
   --s-radio-grande:8px;
+  /* Botones: misma forma en todo el sitio; cada sección elige el color. */
+  --s-boton-alto:48px;
+  --s-boton-relleno:12px 22px;
+  --s-boton-letra:700 14px/1.2 var(--s-fuente-texto);
   --s-fuente-menu:Inter,"Avenir Next",Avenir,"Segoe UI",Arial,sans-serif;
   --s-fuente-texto:"DM Sans",Arial,sans-serif;
   --s-fuente-titulos:"Playfair Display",Georgia,serif;
