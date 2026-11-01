@@ -42,10 +42,15 @@ body {
   display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(3,190px);gap:18px;
   grid-template-areas:"sug cons noti conv" "hist cons colab cult" "hist sobre colab cult";
 }
-.tile{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;justify-content:space-between;gap:12px;padding:24px;border-radius:var(--s-radio);background:var(--fondo);color:var(--texto);text-decoration:none;font:500 22px/1.25 "Playfair Display",Georgia,serif}
+.tile{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-start;gap:12px;--relleno:24px;padding:var(--relleno);border-radius:var(--s-radio);background:var(--fondo);color:var(--texto);text-decoration:none;font:500 22px/1.25 "Playfair Display",Georgia,serif}
 .tile > span[data-i18n]{position:relative;z-index:2;display:block}
-.tile .arr{position:relative;z-index:2;align-self:flex-end;width:52px;height:52px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;transition:background-color .2s ease,color .2s ease}
+.tile .arr{position:absolute;z-index:2;right:var(--relleno);bottom:var(--relleno);background:var(--fondo);width:52px;height:52px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;transition:background-color .2s ease,color .2s ease}
 .tile .arr svg{width:22px;height:22px;transition:transform .2s ease}
+/* Ícono arriba del título y, debajo, el dibujo: ocupa el espacio que queda (nunca tapa el título)
+   y los grandes llegan hasta los bordes. La flecha se apoya encima, con su círculo del color del mosaico. */
+.tile-icono{position:relative;z-index:2;width:28px;height:28px;flex:none}
+.tile-dibujo{display:block;flex:1 1 0;min-height:90px;width:calc(100% + 2 * var(--relleno));margin:4px calc(-1 * var(--relleno)) calc(-1 * var(--relleno));pointer-events:none}
+.tile-dibujo--chico{min-height:60px;width:100%;margin:4px 0 calc(-1 * var(--relleno))}
 /* Al pasar el mouse (o al llegar con el teclado) el círculo se rellena y la flecha avanza en diagonal. */
 .tile:hover .arr,.tile:focus-visible .arr{background:var(--texto);border-color:var(--texto);color:var(--fondo)}
 .tile:hover .arr svg,.tile:focus-visible .arr svg{transform:translate(2px,-2px)}
@@ -161,8 +166,9 @@ body {
 @media (max-width:600px){
   body{font-size:17px}
 
-  .tiles{gap:12px;grid-template-rows:150px repeat(2,minmax(118px,auto)) 150px minmax(118px,auto) minmax(104px,auto);grid-template-areas:"hist hist" "cons sug" "cons sobre" "cult cult" "noti colab" "conv conv"}
-  .tile{padding:18px;font-size:18px}
+  .tiles{gap:12px;grid-template-rows:minmax(190px,auto) repeat(2,minmax(118px,auto)) minmax(190px,auto) minmax(118px,auto) minmax(104px,auto);grid-template-areas:"hist hist" "cons sug" "cons sobre" "cult cult" "noti colab" "conv conv"}
+  .tile{--relleno:18px;font-size:18px;gap:10px}
+  .tile-icono{width:24px;height:24px}
   .hist,.cult,.conv{font-size:22px}
   .cons,.colab{font-size:19px}
   .tile .arr{width:40px;height:40px}
