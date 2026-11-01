@@ -1,10 +1,10 @@
 /* ───────────────────────────────────────────────────────────
    Sección «Noticias» de la portada · franja verde (opción C).
-   Usa las variables de styles.css (--gold) y la tipografía del sitio.
+   Fondo y textos con la paleta común (css/base.css) y la tipografía del sitio.
    ─────────────────────────────────────────────────────────── */
 .noticias-franja{
   position:relative; overflow:hidden; margin-top:40px;
-  background:linear-gradient(180deg,#0d3b2a 0%,#0a2e20 100%); color:#f4f1e9;
+  background:var(--s-verde-oscuro); color:var(--s-marfil);
 }
 .noticias-franja::before{
   content:"N"; position:absolute; right:-24px; top:-70px; pointer-events:none;
