@@ -106,7 +106,12 @@ window.SITIO_TRADUCCIONES = {
     "h-fuentes-4": "Censimento provinciale di Santa Fe del 1887, distretto di Colonia Gálvez (Archivo General de la Provincia de Santa Fe e CFI). <a href=\"https://www.santafe.gov.ar/censo1887/public_html/distrito/Colonia+Galvez/1083\" target=\"_blank\" rel=\"noopener\">Vedi i registri</a>",
     "h-fuentes-5": "Rivista <i>Adversus</i>, anno XV, n. 34 (2018), articolo sulle associazioni italiane in Argentina. <a href=\"http://www.adversus.org/indice/nro-34/articulos/XV3402.pdf\" target=\"_blank\" rel=\"noopener\">Vedi articolo</a>",
     "h-fuentes-6": "I dati propri della Società (date, nomi, lavori e fotografie) saranno aggiunti a partire dal suo archivio istituzionale: verbali, libri dei soci e materiale fotografico.",
-    "h-pag-12": "Inizio"
+    "h-pag-12": "Inizio",
+    "h-actas-1": "Secondo il suo statuto, la Società fu fondata il 9 gennaio 1910. Il suo primo libro dei verbali comincia quel giorno con il nome «Società Italiana di Mutuo Soccorso Artieri ed Agricoltori»: i soci destituirono il consiglio presieduto da Amilcar Frittoli ed elessero una commissione provvisoria guidata da Carlos Dubini.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
+    "h-actas-2": "Le prime riunioni si tennero a casa di Rafael Cerrito e le assemblee nel salone della Sociedad Recreativa Obrera. Il 14 febbraio 1910 si costituì il Consiglio Direttivo definitivo, presieduto da Carlos Falabrini.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
+    "h-actas-3": "Nel 1916 i verbali portano già il nome «Italia Unida», e il 9 giugno 1922 la Società ottenne la personalità giuridica.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
+    "h-actas-pend-1": "Elenco completo dei soci fondatori.",
+    "h-fuentes-7": "Libri dei verbali e dei verbali delle assemblee della Società Italiana di Mutuo Soccorso «Italia Unida» di Gálvez (1910–1996), riesaminati dalla Società tra gennaio e agosto 2026."
   },
   en: {
     "titulo": "History · Italian Mutual Aid Society of Gálvez",
@@ -210,6 +215,11 @@ window.SITIO_TRADUCCIONES = {
     "h-fuentes-4": "1887 provincial census of Santa Fe, Colonia Gálvez district (Archivo General de la Provincia de Santa Fe and CFI). <a href=\"https://www.santafe.gov.ar/censo1887/public_html/distrito/Colonia+Galvez/1083\" target=\"_blank\" rel=\"noopener\">View records</a>",
     "h-fuentes-5": "<i>Adversus</i> journal, year XV, no. 34 (2018), article on Italian associations in Argentina. <a href=\"http://www.adversus.org/indice/nro-34/articulos/XV3402.pdf\" target=\"_blank\" rel=\"noopener\">View article</a>",
     "h-fuentes-6": "The Society's own data (dates, names, works and photographs) will be added from its institutional archive: minutes, membership books and photographic material.",
-    "h-pag-12": "Top"
+    "h-pag-12": "Top",
+    "h-actas-1": "According to its statutes, the Society was founded on 9 January 1910. Its first minute book begins that day under the name “Società Italiana di Mutuo Soccorso Artieri ed Agricoltori”: the members removed the board chaired by Amilcar Frittoli and elected a provisional committee led by Carlos Dubini.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
+    "h-actas-2": "The first meetings were held at the home of Rafael Cerrito, and the assemblies in the hall of the Sociedad Recreativa Obrera. On 14 February 1910 the permanent Board of Directors was formed, chaired by Carlos Falabrini.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
+    "h-actas-3": "By 1916 the minutes already bear the name “Italia Unida”, and on 9 June 1922 the Society obtained its legal status.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
+    "h-actas-pend-1": "Full list of the founding members.",
+    "h-fuentes-7": "Minute books and assembly minute books of the Italian Mutual Aid Society “Italia Unida” of Gálvez (1910–1996), reviewed by the Society between January and August 2026."
   }
 };
