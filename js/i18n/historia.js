@@ -111,7 +111,11 @@ window.SITIO_TRADUCCIONES = {
     "h-actas-2": "Le prime riunioni si tennero a casa di Rafael Cerrito e le assemblee nel salone della Sociedad Recreativa Obrera. Il 14 febbraio 1910 si costituì il Consiglio Direttivo definitivo, presieduto da Carlos Falabrini.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
     "h-actas-3": "Nel 1916 i verbali portano già il nome «Italia Unida», e il 9 giugno 1922 la Società ottenne la personalità giuridica.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
     "h-actas-pend-1": "Elenco completo dei soci fondatori.",
-    "h-fuentes-7": "Libri dei verbali e dei verbali delle assemblee della Società Italiana di Mutuo Soccorso «Italia Unida» di Gálvez (1910–1996), riesaminati dalla Società tra gennaio e agosto 2026."
+    "h-fuentes-7": "Libri dei verbali e dei verbali delle assemblee della Società Italiana di Mutuo Soccorso «Italia Unida» di Gálvez (1910–1996), riesaminati dalla Società tra gennaio e agosto 2026.",
+    "h-actas-4": "Nel 1916 la Società aveva già la sua sede in calle Humberto 1º, l'attuale Belgrano. Nel 1919 acquistò all'asta una casa nella stessa via e nel 1923 comprò dai fratelli Ferrero un'altra proprietà, sempre su Humberto 1º, per la sede sociale.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
+    "h-actas-5": "I soci ricevevano assistenza medica e medicinali, e nel 1941 la Società firmò con le società Cosmopolita e Spagnola di Mutuo Soccorso una convenzione con i medici di Gálvez. Quello stesso anno, quando contava 206 soci, cominciò ad accettare donne e bambini.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
+    "h-actas-6": "Il 28 settembre 1938 fu posata la prima pietra della sede sociale, con il suo salone teatro, inaugurata il 5 novembre 1939. La sala, che doveva chiamarsi «Cine Teatro Italia», aprì come «Cine Teatro Marconi», con 576 poltrone.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>",
+    "h-actas-7": "Ogni anno la Società celebrava il XX Settembre e, dal 1953, imbandiera la sua sede con le bandiere dell'Italia e dell'Argentina ogni 4 novembre.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>"
   },
   en: {
     "titulo": "History · Italian Mutual Aid Society of Gálvez",
@@ -220,6 +224,10 @@ window.SITIO_TRADUCCIONES = {
     "h-actas-2": "The first meetings were held at the home of Rafael Cerrito, and the assemblies in the hall of the Sociedad Recreativa Obrera. On 14 February 1910 the permanent Board of Directors was formed, chaired by Carlos Falabrini.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
     "h-actas-3": "By 1916 the minutes already bear the name “Italia Unida”, and on 9 June 1922 the Society obtained its legal status.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
     "h-actas-pend-1": "Full list of the founding members.",
-    "h-fuentes-7": "Minute books and assembly minute books of the Italian Mutual Aid Society “Italia Unida” of Gálvez (1910–1996), reviewed by the Society between January and August 2026."
+    "h-fuentes-7": "Minute books and assembly minute books of the Italian Mutual Aid Society “Italia Unida” of Gálvez (1910–1996), reviewed by the Society between January and August 2026.",
+    "h-actas-4": "By 1916 the Society already had its headquarters on Humberto 1º street, today's Belgrano. In 1919 it bought a house on that same street at auction, and in 1923 it acquired another property on Humberto 1º from the Ferrero brothers for the society's building.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
+    "h-actas-5": "Members received medical care and medicines, and in 1941 the Society signed an agreement with the doctors of Gálvez together with the Cosmopolitan and Spanish mutual aid societies. That same year, with 206 members, it began to admit women and children.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
+    "h-actas-6": "On 28 September 1938 the foundation stone of the society's building, with its theatre hall, was laid, and it opened on 5 November 1939. The hall, which was to be called “Cine Teatro Italia”, opened as “Cine Teatro Marconi”, with 576 seats.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>",
+    "h-actas-7": "Every year the Society celebrated the XX of September and, since 1953, it has decked its building with the flags of Italy and Argentina every 4 November.<sup><a href=\"#fuente-5\" aria-label=\"Source 5\">5</a></sup>"
   }
 };
