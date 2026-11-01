@@ -30,10 +30,13 @@
   position:relative; overflow:hidden; max-width:1184px; margin:18px auto clamp(40px,6vw,64px); padding:clamp(30px,6vw,72px);
   border-radius:var(--s-radio-grande); background:var(--s-verde-oscuro); color:#fff;
 }
+/* Arcada de fondo, el mismo motivo de la portada («Piazza metafísica») */
+.consulate-hero > *{position:relative; z-index:1}
 .consulate-hero::after{
-  content:""; position:absolute; right:-70px; bottom:-130px; width:340px; height:340px; border-radius:50%; pointer-events:none;
-  border:1px solid rgba(242,244,215,.18); box-shadow:0 0 0 28px rgba(242,244,215,.04),0 0 0 58px rgba(242,244,215,.03);
+  content:""; position:absolute; right:clamp(16px,4vw,56px); bottom:0; z-index:0; width:min(30%,340px); aspect-ratio:330/256; pointer-events:none;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 330 256' fill='none' stroke='%23f2f4d7' stroke-opacity='0.26' stroke-width='2'%3E%3Cpath d='M14 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M124 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M234 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M0 252h330'/%3E%3Cpath d='M4 40h322' stroke-dasharray='2 10'/%3E%3C/svg%3E") right bottom/contain no-repeat;
 }
+@media (max-width:850px){ .consulate-hero::after{width:min(60%,300px); opacity:.5} }
 .consulate-hero .eyebrow{color:var(--s-dorado)}
 .consulate-hero h1{max-width:850px; margin:22px 0 20px; color:#fff; font-size:clamp(40px,7vw,80px); letter-spacing:-.03em}
 .consulate-hero > p:not(.eyebrow){max-width:720px; margin:0; color:#e6eee7; font-size:clamp(16px,2vw,19px); line-height:1.6}

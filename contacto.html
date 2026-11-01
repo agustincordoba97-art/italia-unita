@@ -27,7 +27,13 @@
 .contact-page .eyebrow{color:var(--s-verde-oscuro)}
 
 /* Título */
-.contact-hero{padding:clamp(28px,4vw,52px) 0 clamp(22px,3vw,34px)}
+.contact-hero{position:relative; padding:clamp(28px,4vw,52px) 0 clamp(22px,3vw,34px)}
+/* Arcada junto al título, el mismo motivo de la portada; solo con espacio de sobra */
+.contact-hero::after{
+  content:""; position:absolute; right:0; bottom:clamp(22px,3vw,34px); width:clamp(150px,13vw,180px); aspect-ratio:330/256; pointer-events:none;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 330 256' fill='none' stroke='%23205c3e' stroke-opacity='0.3' stroke-width='2'%3E%3Cpath d='M14 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M124 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M234 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M0 252h330'/%3E%3Cpath d='M4 40h322' stroke-dasharray='2 10'/%3E%3C/svg%3E") right bottom/contain no-repeat;
+}
+@media (max-width:1100px){ .contact-hero::after{display:none} }
 .contact-hero h1{margin:18px 0 0; font-size:clamp(40px,6vw,72px); letter-spacing:-.03em}
 .contact-hero h1 em{color:var(--s-rojo)}
 
