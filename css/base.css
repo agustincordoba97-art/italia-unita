@@ -123,6 +123,17 @@
 .saltar:focus{top:0}
 .saltar:focus-visible{outline:2px solid var(--s-rojo); outline-offset:2px}
 
+/* ── Botón «Cómo llegar»: abre la ruta en Google Maps (en el celular, en la aplicación de mapas) ── */
+.boton-ruta{
+  display:inline-flex; align-items:center; gap:10px; min-height:var(--s-boton-alto); padding:var(--s-boton-relleno);
+  border:1.5px solid var(--s-verde-oscuro); border-radius:var(--s-radio); background:transparent; color:var(--s-verde-oscuro);
+  font:var(--s-boton-letra); text-decoration:none; transition:background-color .2s ease, color .2s ease;
+}
+.boton-ruta svg{width:18px; height:18px; flex:none}
+.boton-ruta:hover{background:var(--s-verde-oscuro); color:#fff}
+.boton-ruta:focus-visible{outline:2px solid var(--s-rojo); outline-offset:3px}
+.sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0}
+
 /* ── Franja del menú en las páginas internas ─────────── */
 /* <header class="menu-sitio"> con el <nav> adentro (Historia, Cultura, Consulado, Contacto). */
 :root{--alto-menu:82px}
@@ -164,6 +175,6 @@
 @media (max-width:600px){ .foot-grid{grid-template-columns:1fr} .copy{text-align:left} }
 
 @media (prefers-reduced-motion:reduce){
-  .nav-tab,.idioma,.menu-boton,.saltar{transition:none}
+  .nav-tab,.idioma,.menu-boton,.saltar,.boton-ruta{transition:none}
   .menu-abierto .menu-opciones{animation:none}
 }

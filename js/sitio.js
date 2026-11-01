@@ -35,6 +35,7 @@
   };
   const CONTACTO = {
     direccion: "Belgrano 664, Gálvez, Santa Fe",
+    ruta: "https://www.google.com/maps/dir/?api=1&destination=Belgrano+664%2C+G%C3%A1lvez%2C+Santa+Fe%2C+Argentina",
     telefono: "Tel: (3404) 408843",
     correo: "contacto@sociedad.org.ar"
   };
@@ -153,7 +154,7 @@
             enlace("cultura", "cultura.html", "fCult") + enlace("noticias", "index.html#noticias", "fNews") +
           `</ul></div>` +
           `<div><h2 data-sitio-texto="fContact"></h2><ul>` +
-            `<li>${CONTACTO.direccion}</li><li>${CONTACTO.telefono}</li><li><a href="mailto:${CONTACTO.correo}">${CONTACTO.correo}</a></li>` +
+            `<li><a href="${CONTACTO.ruta.replace(/&/g, "&amp;")}">${CONTACTO.direccion}</a></li><li>${CONTACTO.telefono}</li><li><a href="mailto:${CONTACTO.correo}">${CONTACTO.correo}</a></li>` +
           `</ul></div>` +
           `<div><h2 data-sitio-texto="fFollow"></h2><ul>` +
             enlace("facebook", REDES.facebook, "", true) + enlace("instagram", REDES.instagram, "", true) +
