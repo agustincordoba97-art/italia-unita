@@ -17,6 +17,9 @@
   --s-tinta:#242629;
   --s-linea:rgba(39,55,39,.36);
   --s-pie:#17251d;
+  /* Tonos de la ilustración de la portada (fachada y torre) */
+  --s-fachada:#ebc77f;
+  --s-ocre:#c48a39;
   /* Esquinas (como las de Historia y Cultura): chicas para piezas internas y etiquetas,
      comunes para botones, pestañas, tarjetas y campos, grandes para contenedores que agrupan otros. */
   --s-radio-chico:4px;
