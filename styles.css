@@ -114,7 +114,8 @@ body {
 .colab{grid-area:colab}
 .conv{grid-area:conv}
 .cult{grid-area:cult;color:#fff;background:linear-gradient(180deg,#0000 30%,#0009),linear-gradient(#a9d3ec,#e9e0c4 45%,#8ea46a 75%,#5d6e3f)}
-.tile-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+/* Fotos de los mosaicos en duotono verde, como las de la portada (filtro #portada-duo del SVG de index.html); sin soporte, en escala de grises. */
+.tile-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:grayscale(1) contrast(1.05);filter:url(#portada-duo)}
 
 /* ===== Noticias ===== */
 .news-sec{padding:100px 28px 20px}
