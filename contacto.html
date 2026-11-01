@@ -184,6 +184,16 @@ document.getElementById('contact-form').addEventListener('submit', function(even
   document.getElementById('contact-status').textContent = t('estadoEnviado');
   window.location.href = 'mailto:contacto@sociedad.org.ar?subject=' + subject + '&body=' + body;
 });
+
+// Desde la portada y el pie: contacto.html?tipo=socio|colabora|sugerencia elige el tipo de consulta.
+(() => {
+  const tipo = new URLSearchParams(location.search).get('tipo');
+  const opcion = { sugerencia: 1, socio: 3, colabora: 4 }[tipo];   // General, Socios, Aportes y colaboración
+  const form = document.getElementById('contact-form');
+  if (!opcion || !form) return;
+  form.categoria.selectedIndex = opcion;
+  if (tipo === 'sugerencia' && !form.asunto.value) form.asunto.value = window.Sitio ? Sitio.t('asuntoSugerencia') : 'Sugerencia';
+})();
 </script>
 </body>
 </html>

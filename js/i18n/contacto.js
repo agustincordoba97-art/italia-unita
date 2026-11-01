@@ -10,7 +10,8 @@ window.SITIO_TRADUCCIONES = {
     "correoCategoria": "Categoría",
     "correoTema": "Asunto",
     "correoMensaje": "Mensaje",
-    "estadoEnviado": "Se abrirá tu aplicación de correo. Revisá el destinatario y el contenido antes de enviar."
+    "estadoEnviado": "Se abrirá tu aplicación de correo. Revisá el destinatario y el contenido antes de enviar.",
+    "asuntoSugerencia": "Sugerencia"
   },
   it: {
     "titulo": "Contatti | Società Italiana di Mutuo Soccorso",
@@ -23,6 +24,7 @@ window.SITIO_TRADUCCIONES = {
     "correoTema": "Oggetto",
     "correoMensaje": "Messaggio",
     "estadoEnviado": "Si aprirà la tua applicazione di posta. Controlla il destinatario e il contenuto prima dell'invio.",
+    "asuntoSugerencia": "Suggerimento",
     "ct-a-migas": "Percorso di navigazione",
     "ct-a-formulario": "Modulo e informazioni di contatto",
     "ct-a-nombre": "Il tuo nome e cognome",
@@ -77,6 +79,7 @@ window.SITIO_TRADUCCIONES = {
     "correoTema": "Subject",
     "correoMensaje": "Message",
     "estadoEnviado": "Your email app will open. Check the recipient and the content before sending.",
+    "asuntoSugerencia": "Suggestion",
     "ct-a-migas": "Breadcrumb",
     "ct-a-formulario": "Form and contact information",
     "ct-a-nombre": "Your first and last name",

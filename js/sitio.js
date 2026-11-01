@@ -157,7 +157,7 @@
           `</ul></div>` +
           `<div><h2 data-sitio-texto="fFollow"></h2><ul>` +
             enlace("facebook", REDES.facebook, "", true) + enlace("instagram", REDES.instagram, "", true) +
-            enlace("sugerencia", "contacto.html", "fSugg") +
+            enlace("sugerencia", "contacto.html?tipo=sugerencia#contact-form", "fSugg") +
           `</ul></div>` +
         `</div>` +
         `<div class="foot-notas"></div>` +

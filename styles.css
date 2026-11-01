@@ -157,7 +157,7 @@ body {
 
 /* ===== En qué estamos trabajando (boletos clásicos) ===== */
 /* Se conserva el contenido de cada tarjeta; solo cambia su silueta exterior. */
-.works{padding:100px 28px 20px;background-color:var(--paper);background-image:linear-gradient(rgba(244,241,234,.9),rgba(244,241,234,.9)),url('img/works-bg.jpg');background-size:cover;background-position:center;background-repeat:no-repeat}
+.works{padding:100px 28px 20px;background-color:var(--paper);background-image:none;background-size:cover;background-position:center;background-repeat:no-repeat}
 .works .eyebrow{color:var(--red);margin-bottom:18px}
 .works-sub{max-width:640px;margin:18px 0 40px;color:var(--muted);font-size:15px;line-height:1.65}
 
@@ -573,7 +573,7 @@ body {
   --news-bg-color: transparent;
   --news-bg-image: none;
   --works-bg-color: #f2f4d7;
-  --works-bg-image: url("img/works-bg.jpg");
+  --works-bg-image: none;
   --map-bg-color: transparent;
   --map-bg-image: none;
   --footer-bg-color: #17251d;
