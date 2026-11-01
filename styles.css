@@ -17,8 +17,6 @@ a{color:inherit}
 :focus-visible{outline:4px solid var(--focus);outline-offset:3px}
 [hidden]{display:none!important}
 .wrap{max-width:1240px;margin:0 auto;padding:0 28px}
-.skip{position:absolute;left:-999px;top:0;background:#fff;color:var(--ink);padding:12px 18px;font-weight:700;z-index:20}
-.skip:focus{left:12px;top:12px}
 
 h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:500;margin:0;line-height:1.1}
 h1 em,h2 em{font-style:italic}

@@ -112,6 +112,17 @@
 }
 @keyframes menu-baja{from{opacity:0; transform:translateY(-6px)} to{opacity:1; transform:none}}
 
+/* ── Enlace para saltar al contenido ─────────────────── */
+/* Primer elemento de cada página: no se ve hasta que se llega con el teclado (Tab). */
+.saltar{
+  position:absolute; left:12px; top:-60px; z-index:100; padding:10px 16px;
+  background:var(--s-marfil); color:var(--s-tinta); font:700 15px/1.2 var(--s-fuente-texto); text-decoration:none;
+  border:1px solid var(--s-linea); border-top:0; border-radius:0 0 var(--s-radio) var(--s-radio);
+  box-shadow:0 10px 24px -14px rgba(20,35,25,.5); transition:top .15s ease;
+}
+.saltar:focus{top:0}
+.saltar:focus-visible{outline:2px solid var(--s-rojo); outline-offset:2px}
+
 /* ── Franja del menú en las páginas internas ─────────── */
 /* <header class="menu-sitio"> con el <nav> adentro (Historia, Cultura, Consulado, Contacto). */
 :root{--alto-menu:82px}
@@ -153,6 +164,6 @@
 @media (max-width:600px){ .foot-grid{grid-template-columns:1fr} .copy{text-align:left} }
 
 @media (prefers-reduced-motion:reduce){
-  .nav-tab,.idioma,.menu-boton{transition:none}
+  .nav-tab,.idioma,.menu-boton,.saltar{transition:none}
   .menu-abierto .menu-opciones{animation:none}
 }

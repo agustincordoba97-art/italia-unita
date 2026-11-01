@@ -14,6 +14,7 @@ window.SITIO_TRADUCCIONES = {
     "asuntoSugerencia": "Sugerencia"
   },
   it: {
+    "saltar": "Vai al contenuto",
     "titulo": "Contatti | Società Italiana di Mutuo Soccorso",
     "correoAsunto": "Contatto dal sito",
     "correoNombre": "Nome",
@@ -69,6 +70,7 @@ window.SITIO_TRADUCCIONES = {
     "ct-pag-35": "Ci trovi a Gálvez"
   },
   en: {
+    "saltar": "Skip to content",
     "titulo": "Contact | Italian Mutual Aid Society",
     "correoAsunto": "Website contact",
     "correoNombre": "Name",

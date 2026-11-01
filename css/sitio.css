@@ -45,15 +45,6 @@ body{
 .cta svg{width:18px; height:18px}
 .cta:hover, .cta:focus-visible{color:var(--verde-oscuro); border-color:var(--verde-oscuro)}
 
-/* ── Enlace para saltar al contenido ─────────────────────
-   La franja del menú (.menu-sitio) está en css/base.css. */
-.saltar{
-  position:absolute; left:12px; top:-60px; z-index:100; padding:10px 16px;
-  background:var(--crema); color:var(--tinta); font-weight:700; text-decoration:none;
-  border-radius:0 0 var(--s-radio) var(--s-radio); transition:top .15s ease;
-}
-.saltar:focus{top:0}
-
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *, *::before, *::after{animation:none !important; transition:none !important}

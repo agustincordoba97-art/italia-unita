@@ -12,6 +12,7 @@ window.SITIO_TRADUCCIONES = {
     "estadoEnviado": "Se intentó abrir tu aplicación de correo. Si no se abrió, escribinos desde tu correo habitual; recordá reemplazar la dirección institucional si corresponde."
   },
   it: {
+    "saltar": "Vai al contenuto",
     "titulo": "Servizi consolari | Società Italiana di Mutuo Soccorso",
     "correoAsunto": "Richiesta consolare",
     "correoNombre": "Nome",
@@ -117,6 +118,7 @@ window.SITIO_TRADUCCIONES = {
     "co-consulta-23": "Informazioni verificate sui siti ufficiali del Consolato Generale d'Italia a Rosario. Le procedure possono cambiare; verifica sempre le informazioni aggiornate prima di agire."
   },
   en: {
+    "saltar": "Skip to content",
     "titulo": "Consular services | Italian Mutual Aid Society",
     "correoAsunto": "Consular enquiry",
     "correoNombre": "Name",
