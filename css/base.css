@@ -118,6 +118,13 @@
   .menu-sitio{padding:12px 10px 0}
 }
 
+/* ── Volanta: texto chico en mayúsculas con una línea delante (todas las páginas) ── */
+.eyebrow, .portada-volanta{
+  display:inline-flex; align-items:center; gap:14px; margin:0;
+  font:700 12px/1.2 var(--s-fuente-texto); letter-spacing:.2em; text-transform:uppercase;
+}
+.eyebrow::before, .portada-volanta::before{content:""; width:40px; height:1px; background:currentColor; flex:none}
+
 /* ── Pie ─────────────────────────────────────────────── */
 .foot{
   color:#e9efe9; background:var(--s-pie); border-top:6px solid var(--s-mostaza);

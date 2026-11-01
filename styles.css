@@ -22,8 +22,7 @@ a{color:inherit}
 
 h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:500;margin:0;line-height:1.1}
 h1 em,h2 em{font-style:italic}
-.eyebrow{display:inline-flex;align-items:center;gap:14px;font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0}
-.eyebrow::before{content:"";width:44px;height:1px;background:currentColor}
+/* La volanta (.eyebrow) está en css/base.css. */
 .big{font-size:clamp(32px,4vw,54px)}
 
 /* ===== Encabezado (logo + nombre arriba, menú con íconos abajo) ===== */

@@ -26,11 +26,8 @@ body{
 .sprite{position:absolute; width:0; height:0; overflow:hidden}
 
 /* ── Tipografía compartida ───────────────────────────── */
-.eyebrow{
-  display:flex; align-items:center; gap:14px; margin:0 0 22px;
-  font:700 12px/1.2 var(--sans); letter-spacing:.24em; text-transform:uppercase;
-}
-.eyebrow::before{content:""; width:36px; height:1px; background:currentColor; opacity:.45; flex:none}
+/* La volanta (.eyebrow) está en css/base.css; acá solo su ubicación. */
+.eyebrow{display:flex; margin:0 0 22px}
 .titulo{
   margin:0 0 24px; font-family:var(--serif); font-weight:400;
   font-size:clamp(38px,5.4vw,64px); line-height:1.04; letter-spacing:-.015em;
