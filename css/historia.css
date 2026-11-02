@@ -174,6 +174,11 @@ sup a:focus-visible{outline:2px solid var(--h-ambar)}
 .foto--declive img{filter:grayscale(.75) contrast(.92) brightness(.92)}
 .foto--actual{--ph:#1f5a3a}
 
+/* 05 · Dos fotos de la recorrida: la segunda, más chica y corrida a la derecha */
+.renacer-fotos{display:grid; gap:clamp(28px,3.5vw,44px)}
+.renacer-fotos > .foto + .foto{width:78%; justify-self:end}
+@media (max-width:759px){ .renacer-fotos > .foto + .foto{width:100%} }
+
 /* 02 · Collage que crece */
 .collage{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; align-items:start}
 .collage .foto:first-child{grid-column:1 / -1}
