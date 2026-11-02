@@ -303,24 +303,25 @@
     </div>
 
     <div class="contenedor">
-      <!-- Antes / después: reemplazar cada .foto-pendiente por la foto correspondiente, con el mismo encuadre. -->
+      <!-- Ayer y hoy del frente: foto de archivo y foto de octubre de 2026 desde un ángulo parecido.
+           Cuando terminen las obras, «hoy» puede reemplazarse por una foto nueva con el mismo encuadre. -->
       <div class="comparador revelar" id="comparador">
-        <div class="comparador-capa foto--declive">
+        <div class="comparador-capa foto--archivo">
           <img src="img/historia/edificio-antes.jpeg"
-               alt="El edificio antes de la obra" data-t-attr="alt:h-etapa-reconstruccion-6"
+               alt="El frente del edificio en una foto de archivo" data-t-attr="alt:h-etapa-reconstruccion-6"
                loading="lazy" decoding="async">
         </div>
         <div class="comparador-capa comparador-despues foto--actual">
-          <img src="img/historia/edificio-despues.jpeg"
-               alt="El edificio recuperado, con el mismo encuadre" data-t-attr="alt:h-etapa-reconstruccion-8"
+          <img src="img/historia/frente-2026.jpg"
+               alt="El frente del edificio en octubre de 2026, desde un ángulo parecido" data-t-attr="alt:h-etapa-reconstruccion-8"
                loading="lazy" decoding="async">
         </div>
-        <span class="comparador-etiqueta comparador-etiqueta--antes" aria-hidden="true" data-t="h-etapa-reconstruccion-9">Antes</span>
-        <span class="comparador-etiqueta comparador-etiqueta--despues" aria-hidden="true" data-t="h-etapa-reconstruccion-10">Después</span>
+        <span class="comparador-etiqueta comparador-etiqueta--antes" aria-hidden="true" data-t="h-etapa-reconstruccion-9">Ayer</span>
+        <span class="comparador-etiqueta comparador-etiqueta--despues" aria-hidden="true" data-t="h-etapa-reconstruccion-10">Hoy</span>
         <span class="comparador-linea" aria-hidden="true"><span class="comparador-mango"><svg><use href="#i-comparar"/></svg></span></span>
-        <input class="comparador-control" type="range" min="0" max="100" value="50" step="1" aria-label="Comparar el edificio antes y después de la reconstrucción" data-t-attr="aria-label:h-a-comparador" aria-valuetext="Antes 50 %, después 50 %">
+        <input class="comparador-control" type="range" min="0" max="100" value="50" step="1" aria-label="Comparar el frente del edificio, ayer y hoy" data-t-attr="aria-label:h-a-comparador" aria-valuetext="Ayer 50 %, hoy 50 %">
       </div>
-      <p class="comparador-ayuda" data-t="h-etapa-reconstruccion-11">Desliza el control para comparar el antes y el después.</p>
+      <p class="comparador-ayuda" data-t="h-etapa-reconstruccion-11">Deslizá el control para comparar el frente de ayer y el de hoy.</p>
 
       
 

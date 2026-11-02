@@ -3,7 +3,7 @@
    1. Parallax por capas
    2. Aparición del texto
    3. Pestaña «volver arriba»
-   4. Comparador antes / después
+   4. Comparador ayer / hoy
    ─────────────────────────────────────────────────────────── */
 (() => {
   "use strict";
@@ -124,14 +124,14 @@
     });
   }
 
-  /* ── 4. Comparador antes / después ───────────────────── */
+  /* ── 4. Comparador ayer / hoy ───────────────────── */
   const comparador = document.getElementById("comparador");
   if (comparador){
     const control = comparador.querySelector(".comparador-control");
     const actualizar = () => {
       const v = Number(control.value);
       comparador.style.setProperty("--pos", v + "%");
-      const texto = window.Sitio ? Sitio.t("comparadorValor", { a: v, d: 100 - v }) : `Antes ${v} %, después ${100 - v} %`;
+      const texto = window.Sitio ? Sitio.t("comparadorValor", { a: v, d: 100 - v }) : `Ayer ${v} %, hoy ${100 - v} %`;
       control.setAttribute("aria-valuetext", texto);
     };
     control.addEventListener("input", actualizar);
