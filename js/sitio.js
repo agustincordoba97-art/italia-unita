@@ -37,7 +37,10 @@
     direccion: "Belgrano 664, Gálvez, Santa Fe",
     ruta: "https://www.google.com/maps/dir/?api=1&destination=Belgrano+664%2C+G%C3%A1lvez%2C+Santa+Fe%2C+Argentina",
     telefono: "Tel: (3404) 408843",
-    correo: "contacto@sociedad.org.ar"
+    correo: "contacto@sociedad.org.ar",
+    // PROVISORIO: número de WhatsApp de la Sociedad, a confirmar (código de país + área sin 0 + número, sin 15).
+    // Mientras tanto es un número inexistente, para que ningún mensaje llegue a un tercero.
+    whatsapp: "5490000000000"
   };
 
   const TEXTOS = {
@@ -47,7 +50,8 @@
       orgName: "Sociedad Italiana de Socorros Mutuos", footAbout: "Trabajamos desde hace generaciones por la comunidad ítalo-argentina.",
       fNav: "Navegación", fAbout: "Sobre nosotros", fCons: "Consulado y voto", fCult: "Cultura italiana", fNews: "Noticias",
       fContact: "Contacto", fFollow: "Seguinos", fSugg: "Dejá una sugerencia",
-      copy: "© 2026 Sociedad Italiana de Socorros Mutuos. Todos los derechos reservados."
+      copy: "© 2026 Sociedad Italiana de Socorros Mutuos. Todos los derechos reservados.",
+      waArchivo: "Hola, tengo fotos o documentos para el archivo de la Sociedad Italiana de Gálvez."
     },
     it: {
       menu: "Navigazione principale", menuBoton: "Menu", inicio: "Home", historia: "Storia", consulado: "Consolato", cultura: "Cultura", colabora: "Collabora",
@@ -55,7 +59,8 @@
       orgName: "Società Italiana di Mutuo Soccorso", footAbout: "Da generazioni lavoriamo per la comunità italo-argentina.",
       fNav: "Menu", fAbout: "Chi siamo", fCons: "Consolato e voto", fCult: "Cultura italiana", fNews: "Notizie",
       fContact: "Contatti", fFollow: "Seguici", fSugg: "Lascia un suggerimento",
-      copy: "© 2026 Società Italiana di Mutuo Soccorso. Tutti i diritti riservati."
+      copy: "© 2026 Società Italiana di Mutuo Soccorso. Tutti i diritti riservati.",
+      waArchivo: "Ciao, ho foto o documenti per l'archivio della Società Italiana di Gálvez."
     },
     en: {
       menu: "Main navigation", menuBoton: "Menu", inicio: "Home", historia: "History", consulado: "Consulate", cultura: "Culture", colabora: "Get involved",
@@ -63,7 +68,8 @@
       orgName: "Italian Mutual Aid Society", footAbout: "For generations we have worked for the Italian-Argentine community.",
       fNav: "Menu", fAbout: "About us", fCons: "Consulate and vote", fCult: "Italian culture", fNews: "News",
       fContact: "Contact", fFollow: "Follow us", fSugg: "Leave a suggestion",
-      copy: "© 2026 Italian Mutual Aid Society. All rights reserved."
+      copy: "© 2026 Italian Mutual Aid Society. All rights reserved.",
+      waArchivo: "Hello, I have photos or documents for the archive of the Italian Society of Gálvez."
     }
   };
 
@@ -176,6 +182,10 @@
     document.querySelectorAll("[data-sitio-aria]").forEach(el => { el.setAttribute("aria-label", tx[el.dataset.sitioAria]); });
     document.querySelectorAll('[data-sitio="menu"]').forEach(nav => nav.setAttribute("aria-label", tx.menu));
     document.querySelectorAll("[data-idioma]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.idioma === idioma)));
+    // Enlaces de WhatsApp: <a data-sitio-whatsapp="clave"> abre el chat de la Sociedad con el mensaje TEXTOS[idioma][clave].
+    document.querySelectorAll("[data-sitio-whatsapp]").forEach(a => {
+      a.href = `https://wa.me/${CONTACTO.whatsapp}?text=${encodeURIComponent(tx[a.dataset.sitioWhatsapp] || "")}`;
+    });
   }
 
   /* ── Contenido de la página ───────────────────────── */

@@ -92,6 +92,7 @@
 
 /* Mapa */
 .contact-map-head{display:flex; flex-wrap:wrap; justify-content:space-between; align-items:end; gap:12px 20px; margin-bottom:20px}
+.contact-ayuda{margin:-4px 0 0; padding:12px 14px; border-left:3px solid var(--s-mostaza); border-radius:0 var(--s-radio-chico) var(--s-radio-chico) 0; background:var(--s-verde-suave); font-size:14px; line-height:1.55}
 .contact-map-dir{display:flex; flex-wrap:wrap; align-items:center; gap:12px 20px}
 .contact-map-dir p{margin:0; color:var(--texto-suave)}
 .contact-map-frame{height:390px; overflow:hidden; border:1px solid var(--borde); border-radius:var(--s-radio); background:var(--s-verde-suave)}
@@ -140,9 +141,10 @@
             <label><span data-t="ct-pag-8">Nombre completo</span><input name="nombre" autocomplete="name" required placeholder="Tu nombre y apellido" data-t-attr="placeholder:ct-a-nombre"></label>
             <label><span data-t="ct-pag-9">Correo electrónico</span><input name="email" type="email" autocomplete="email" required placeholder="nombre@ejemplo.com" data-t-attr="placeholder:ct-a-correo"></label>
             <label><span data-t="ct-pag-10">Teléfono <span aria-hidden="true">(opcional)</span></span><input name="telefono" type="tel" autocomplete="tel" placeholder="Tu número de teléfono" data-t-attr="placeholder:ct-a-telefono"></label>
-            <label><span data-t="ct-pag-11">Tipo de consulta</span><select name="categoria" required><option value="" selected disabled data-t="ct-pag-12">Seleccioná una categoría</option><option data-t="ct-pag-13">General</option><option data-t="ct-pag-14">Trámites / Consulado</option><option data-t="ct-pag-15">Socios</option><option data-t="ct-pag-16">Aportes y colaboración</option><option data-t="ct-pag-17">Cultura y actividades</option><option data-t="ct-pag-18">Otro</option></select></label>
+            <label><span data-t="ct-pag-11">Tipo de consulta</span><select name="categoria" required><option value="" selected disabled data-t="ct-pag-12">Seleccioná una categoría</option><option data-t="ct-pag-13">General</option><option data-t="ct-pag-14">Trámites / Consulado</option><option data-t="ct-pag-15">Socios</option><option data-t="ct-pag-16">Aportes y colaboración</option><option data-t="ct-pag-17">Cultura y actividades</option><option data-t="ct-archivo-1">Fotos y documentos para el archivo</option><option data-t="ct-pag-18">Otro</option></select></label>
             <label class="full"><span data-t="ct-pag-19">Asunto</span><input name="asunto" required placeholder="¿Sobre qué querés consultarnos?" data-t-attr="placeholder:ct-a-asunto"></label>
             <label class="full"><span data-t="ct-pag-20">Mensaje</span><textarea name="mensaje" required minlength="10" placeholder="Escribí tu mensaje aquí..." data-t-attr="placeholder:ct-a-mensaje"></textarea></label>
+            <p class="contact-ayuda full" id="ayuda-archivo" data-t="ct-archivo-2" hidden>Contanos qué o a quién muestra cada foto, el año aproximado y de quién es. Cuando se abra tu correo, adjuntá las fotos antes de enviarlo.</p>
             <p class="contact-small full" data-t="ct-pag-21">Este formulario no envía datos a un servidor. Al presionar el botón, se abrirá tu aplicación de correo con el mensaje preparado para que confirmes el envío.</p>
             <button class="contact-submit full" type="submit" data-t="ct-pag-22">Preparar mensaje <span aria-hidden="true">↗</span></button>
             <p class="contact-status full" id="contact-status" aria-live="polite"></p>
@@ -208,13 +210,19 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     colabora:   ['ct-pag-16'],
     donacion:   ['ct-pag-16', 'asuntoDonacion'],
     sponsor:    ['ct-pag-16', 'asuntoSponsor'],
+    archivo:    ['ct-archivo-1', 'asuntoArchivo'],   // pedido de fotos de Historia
   };
   const [opcion, asunto] = TIPOS[new URLSearchParams(location.search).get('tipo')] || [];
   const form = document.getElementById('contact-form');
-  const elegida = opcion && form && form.categoria.querySelector(`option[data-t="${opcion}"]`);
+  // Con «Fotos y documentos para el archivo» aparece la ayuda sobre qué contar y cómo adjuntar las fotos.
+  const ayuda = document.getElementById('ayuda-archivo');
+  const mostrarAyuda = () => { ayuda.hidden = form.categoria.selectedOptions[0]?.dataset.t !== 'ct-archivo-1'; };
+  form.categoria.addEventListener('change', mostrarAyuda);
+  const elegida = opcion && form.categoria.querySelector(`option[data-t="${opcion}"]`);
   if (!elegida) return;
   elegida.selected = true;
   if (asunto && !form.asunto.value && window.Sitio) form.asunto.value = Sitio.t(asunto);
+  mostrarAyuda();
 })();
 </script>
 </body>

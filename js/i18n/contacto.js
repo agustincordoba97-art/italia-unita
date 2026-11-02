@@ -2,6 +2,7 @@
    Archivo generado: cada clave es el atributo data-t (o data-t-attr) del texto en español del HTML. */
 window.SITIO_TRADUCCIONES = {
   es: {
+    "asuntoArchivo": "Fotos para el archivo",
     "correoAsunto": "Contacto web",
     "correoNombre": "Nombre",
     "correoCorreo": "Correo",
@@ -16,6 +17,9 @@ window.SITIO_TRADUCCIONES = {
     "asuntoDonacion": "Donación"
   },
   it: {
+    "asuntoArchivo": "Foto per l'archivio",
+    "ct-archivo-1": "Foto e documenti per l'archivio",
+    "ct-archivo-2": "Raccontaci cosa o chi mostra ogni foto, l'anno approssimativo e a chi appartiene. Quando si apre la tua e-mail, allega le foto prima di inviarla.",
     "ct-ruta": "Vedi il percorso",
     "ct-ruta-nueva": "(si apre in una nuova scheda)",
     "saltar": "Vai al contenuto",
@@ -76,6 +80,9 @@ window.SITIO_TRADUCCIONES = {
     "ct-pag-35": "Ci trovi a Gálvez"
   },
   en: {
+    "asuntoArchivo": "Photos for the archive",
+    "ct-archivo-1": "Photos and documents for the archive",
+    "ct-archivo-2": "Tell us what or who each photo shows, the approximate year and who it belongs to. When your email opens, attach the photos before sending it.",
     "ct-ruta": "Get directions",
     "ct-ruta-nueva": "(opens in a new tab)",
     "saltar": "Skip to content",
