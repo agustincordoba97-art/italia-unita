@@ -22,7 +22,8 @@ const I18N = {
     supportDonateTitle: "Aportá", supportDonateText: "No importa el monto: tu donación hace una diferencia real para nosotros.", supportDonateBtn: "Donar",
     supportJoinTitle: "Asociate", supportJoinText: "Tu membresía nos permite sostener nuestros proyectos y crecer mes a mes.", supportJoinBtn: "Hacerme socio",
     supportShareTitle: "Colaborá", supportShareText: "Sumá tu empresa como sponsor o colaborá con insumos para potenciar nuestro trabajo.", supportShareBtn: "Contactanos",
-    supportArchiveText: "¿Tenés fotos o documentos antiguos de la Sociedad?", supportArchiveLink: "Ayudanos a completar su historia →"
+    supportArchiveText: "¿Tenés fotos o documentos antiguos de la Sociedad?", supportArchiveLink: "Ayudanos a completar su historia →",
+    hoyTitle: "Así está hoy", hoyText: "Fotos de octubre de 2026, antes de las obras. Tocá una para verla más grande.", hoyFachada: "El frente sobre calle Belgrano, con las letras de «Italia Unida».", hoySala: "La sala del Cine Teatro Marconi, vista desde el pullman.", hoyCabina: "El microcine, que nunca llegó a inaugurarse, visto desde la cabina de proyección.", hoyTechos: "Los techos de chapa.", hoyCielorraso: "El pullman, con el cielorraso dañado y escombros en la platea.", hoyBanos: "Los baños, a la espera de su renovación.", hoyHumedad: "Humedad en una pared del microcine.", hoyElectrica: "Una sala de servicio, con el tablero eléctrico.", hoyPisos: "Un sector de la sala con el piso levantado."
   },
   en: {
     skip: "Skip to content",
@@ -43,7 +44,8 @@ const I18N = {
     supportDonateTitle: "Donate", supportDonateText: "No matter the amount, your donation makes a real difference for us.", supportDonateBtn: "Donate",
     supportJoinTitle: "Become a member", supportJoinText: "Your membership helps us sustain our projects and grow month after month.", supportJoinBtn: "Become a member",
     supportShareTitle: "Collaborate", supportShareText: "Join as a sponsor company or contribute supplies to boost our work.", supportShareBtn: "Contact us",
-    supportArchiveText: "Do you have old photos or documents of the Society?", supportArchiveLink: "Help us complete its history →"
+    supportArchiveText: "Do you have old photos or documents of the Society?", supportArchiveLink: "Help us complete its history →",
+    hoyTitle: "How it looks today", hoyText: "Photos from October 2026, before the works. Tap one to see it larger.", hoyFachada: "The front on Belgrano street, with the «Italia Unida» lettering.", hoySala: "The Cine Teatro Marconi auditorium, seen from the balcony.", hoyCabina: "The micro-cinema, which never opened, seen from the projection booth.", hoyTechos: "The sheet-metal roofs.", hoyCielorraso: "The balcony, with the damaged ceiling and debris in the stalls.", hoyBanos: "The restrooms, awaiting renovation.", hoyHumedad: "Damp on a wall of the micro-cinema.", hoyElectrica: "A service room, with the electrical panel.", hoyPisos: "A section of the hall with the floor torn up."
   },
   it: {
     skip: "Vai al contenuto",
@@ -64,7 +66,8 @@ const I18N = {
     supportDonateTitle: "Dona", supportDonateText: "Qualsiasi sia la cifra, la tua donazione fa davvero la differenza per noi.", supportDonateBtn: "Dona",
     supportJoinTitle: "Diventa socio", supportJoinText: "La tua iscrizione ci permette di sostenere i nostri progetti e di crescere mese dopo mese.", supportJoinBtn: "Diventa socio",
     supportShareTitle: "Collabora", supportShareText: "Partecipa come azienda sponsor o collabora con materiali per potenziare il nostro lavoro.", supportShareBtn: "Contattaci",
-    supportArchiveText: "Hai vecchie foto o documenti della Società?", supportArchiveLink: "Aiutaci a completare la sua storia →"
+    supportArchiveText: "Hai vecchie foto o documenti della Società?", supportArchiveLink: "Aiutaci a completare la sua storia →",
+    hoyTitle: "Così è oggi", hoyText: "Foto di ottobre 2026, prima dei lavori. Tocca una foto per ingrandirla.", hoyFachada: "La facciata su via Belgrano, con la scritta «Italia Unida».", hoySala: "La sala del Cine Teatro Marconi, vista dalla galleria.", hoyCabina: "Il microcinema, mai inaugurato, visto dalla cabina di proiezione.", hoyTechos: "I tetti in lamiera.", hoyCielorraso: "La galleria, con il controsoffitto danneggiato e calcinacci in platea.", hoyBanos: "I bagni, in attesa di essere rinnovati.", hoyHumedad: "Umidità su una parete del microcinema.", hoyElectrica: "Un locale di servizio, con il quadro elettrico.", hoyPisos: "Una parte della sala con il pavimento rimosso."
   }
 };
 
@@ -123,6 +126,7 @@ function applyStatic(){
   document.documentElement.lang = lang;
   document.title = t("orgName");
   document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = t(el.dataset.i18n));
+  document.querySelectorAll("[data-i18n-alt]").forEach(el => el.alt = t(el.dataset.i18nAlt));
 }
 
 function renderWorks(){

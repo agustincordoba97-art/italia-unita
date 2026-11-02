@@ -142,6 +142,23 @@ body {
 .support-archivo svg{width:24px;height:24px;flex:none;color:var(--gold)}
 .support-archivo a{color:var(--gold);font-weight:700;text-underline-offset:3px}
 
+/* «Así está hoy»: fotos del edificio antes de las obras, sin recortar (se amplían con js/visor.js). */
+.hoy{margin-top:clamp(56px,7vw,88px)}
+.hoy-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;margin-bottom:22px;padding-top:24px;border-top:1px solid var(--line)}
+.hoy-head h3{margin:0;font:400 clamp(26px,3vw,34px)/1.1 "Playfair Display",Georgia,serif}
+.hoy-head p{margin:0;color:var(--muted);font-size:15px}
+.hoy-destacadas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-bottom:18px}
+.hoy-mosaico{columns:3 220px;column-gap:18px}
+.hoy-mosaico .hoy-foto{break-inside:avoid;margin-bottom:18px}
+.hoy-foto{margin:0}
+.hoy-foto a{display:block;overflow:hidden;border-radius:var(--s-radio);background:var(--s-verde-suave);cursor:zoom-in}
+.hoy-foto img{display:block;width:100%;height:auto;transition:transform .35s ease}
+.hoy-destacadas img{aspect-ratio:4/3;object-fit:cover}
+.hoy-foto a:hover img,.hoy-foto a:focus-visible img{transform:scale(1.03)}
+.hoy-foto a:focus-visible{outline:3px solid var(--s-rojo);outline-offset:3px}
+.hoy-foto figcaption{margin-top:8px;font-size:13.5px;line-height:1.45;color:var(--muted)}
+@media (max-width:700px){.hoy-destacadas{grid-template-columns:minmax(0,1fr)}.hoy-mosaico{columns:2;column-gap:12px}.hoy-mosaico .hoy-foto{margin-bottom:14px}}
+
 /* ===== Dónde estamos (mapa) ===== */
 .map-sec{padding:100px 28px 20px}
 .map-sec .eyebrow{color:var(--green);margin-bottom:18px}
