@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-02T17:46+00:00",
+  "actualizado": "2026-11-02T20:23+00:00",
   "items": [
     {
       "titulo": "Muere Virginio Mantesso Neto, investigador de la inmigración italiana, a los 83 años",
@@ -10,10 +10,10 @@ window.NOTICIAS = {
       "tema": "Comunidad"
     },
     {
-      "titulo": "FUERTE TORMENTA DE VIENTO Y LLUVIA EN PEHUAJÓ: LABOR DE BOMBEROS VOLUNTARIOS ANTE LA CAÍDA DE UN ÁRBOL EN RUTA 226 Y LA VOLADURA DE UN TECHO EN UNA VIVIENDA",
-      "enlace": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOT1ZoSmphZG5wQkV5Wmk5WGVJc2hZd01kUHBsaEVJdnFlUTJ5bnB4NkE0T3c3anNrZDlSNHVhLXdsQ05tT1VsWnVPUXp6aEVsU2MxTi1DZTVxWl9wNUVxeFZpUVdXdU44SGhmNEZSX3pBbGFiNEI0NVIzQ293cUFraHNjcl9yUS04XzBhTFNrZV9neG5Sc2ZXR2ExaTVVcjNkQk5nT3lmVmtCY2NCVmJNMk43NE9hTFhueFg2RzBuMG9xdDNteUlDU2hzZWZPem1FRUh0YllTRWhoQkFTLTY3dUFZVjBSdzhtRDc1LVVvUmpHdDZ2bzB1Qmxvc3BHUXEyRHlyNGFQT3RjSGxlMTlNdHBmWThjcFEteXo5SUhhXzZMNm9SZWlEM2VNM0c1UV9FVVQ0Wg?oc=5",
-      "medio": "FM Del Sol Pehuajo",
-      "fecha": "2026-11-02T17:27+00:00",
+      "titulo": "Ciudadanía italiana: un fallo clave amplía el acceso a la nacionalidad a descendientes que creían no tener chance",
+      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS2VKaTB3X3FQQWRSWXhNVHBhS3RzNmRfYWFpdFlaNC11TWFyMzJjN2I5ZzR0MTl6SDNRUURmRjd4ZS1FM3RSTWlsaUY3QXZ1UWZFNEdibmROVmRnSUVGdDJLUHl0dXI3Wkd5T3gxMFdENENFU3F6ZnJsc2NyR3c4QXRRUW5uZkh3WDd5RGprUFJxUXpNV0xvUHU5dEp4cnZlbVBZZUd5aWIzaDFTa0tLS3Bqa0JwUzk5dWlLWDZGeW85TVAxMVN5R0twT1k1Z0pnTzUzdGJmQWNHOGhfSzdDaEg2R3BDZDAwWGfSAYQCQVVfeXFMTl9MaVR3X2dUbnR4b0xaXzFtWDRNVlVxQ3I5QVpWM3ZVaGJlcmxlQmNWdlJySmszanR1d3I2ekpwdWVyMVJyckZzR2J6Z2ozcTB2WFhiQklBNGxIb1dfVHRSTGpPRVBpTGNhUDQ2QzVQWkQzY0NCYkJDendGbGpwUnVVZHQzdmU0ZENnbEZkVUlBcTNzb3JUOWJoNlJkNlJ1Qk1IdVFPQzV6QmhiQzJ6NExYeEVZbkl5N2R1azlidHV5VHJJaFFoNXB3OWdJcUhRWmVYcUlpTHBMeUJqMmlFdFZHVVJwQ0ZZQnRSQWhWcmprYnJNRHUxaEZLNDJRaldOQ2czQ0c?oc=5",
+      "medio": "El Cronista",
+      "fecha": "2026-11-02T14:50+00:00",
       "tema": "Consulado"
     },
     {
@@ -24,10 +24,10 @@ window.NOTICIAS = {
       "tema": "Cultura"
     },
     {
-      "titulo": "Música, teatro y danza en la agenda de junio del Teatro 3 de Febrero",
-      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWU3ZXFiMmNxWTBtVmN6aHRnVF9NM1prUHBlRnNoWnNsRGpRSXA2dFZvbUxMMVFuc3JORjhuRVRDbE5xZU0xM0JRTUgtZW1VZy0wMlhuVHRETTBqaFFpcE1pN0NuemdHRG9WUUc5bVlVQUM0SU0xT2ZHZnk5aERMdHBzLVVtclhRNG9Ed0pKbW1Tbk5fSWlUZ3NMLXpOSXZDLWVTUg?oc=5",
-      "medio": "Municipalidad de Paraná",
-      "fecha": "2026-11-02T12:03+00:00",
+      "titulo": "A la sala del Teatro Marconi se le impondrá el nombre de María Guillermina Saggión",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTHZQNUgtcVhOVElQVW5iaU1QMGFTNkwxYm44R0VBZ3k1OE9hSVNPQ001N1hwb3pCTjJVLUJpQi1sZ2tobVZRRW45c2xxa3V1dUl3TElDVW9fQkZVUGktU3hZXzl2c3Bhem5XWVQxZ3JFLWZ4WkpMdHNneVpSOGo3WUFXbjdiMzhoNVo4eFZXLXNLV0JFU3RpQ2FsSzF2SnQyT21yeTUyM3JaUlNrZkVXaVNkQWVHZFRXNnVJTW9uS2U?oc=5",
+      "medio": "La Síntesis",
+      "fecha": "2026-11-01T22:11+00:00",
       "tema": "Patrimonio"
     },
     {
