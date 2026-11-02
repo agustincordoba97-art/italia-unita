@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-02T01:32+00:00",
+  "actualizado": "2026-11-02T17:46+00:00",
   "items": [
     {
       "titulo": "Muere Virginio Mantesso Neto, investigador de la inmigración italiana, a los 83 años",
@@ -10,31 +10,31 @@ window.NOTICIAS = {
       "tema": "Comunidad"
     },
     {
-      "titulo": "¿Será un superclásico para la historia?",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWDh0U1ZsU19McUZlbW5hN0hvWnVsaUx1VnRsSXVnejE5UFZ1cFVnZDV4MnJndTNtTTFoX0w0ZWxKUE5JamttZG00bmtnTWZ3dVpZa0ZFZUlGYkZOTUQ3SExtY1k5bTQtVXpFaUpyZXlOVkVIcHNvRXp4NzI2U0dmNEFmOGt6NjNTa3UzMHNXUGRnUHJEVTBV?oc=5",
+      "titulo": "FUERTE TORMENTA DE VIENTO Y LLUVIA EN PEHUAJÓ: LABOR DE BOMBEROS VOLUNTARIOS ANTE LA CAÍDA DE UN ÁRBOL EN RUTA 226 Y LA VOLADURA DE UN TECHO EN UNA VIVIENDA",
+      "enlace": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOT1ZoSmphZG5wQkV5Wmk5WGVJc2hZd01kUHBsaEVJdnFlUTJ5bnB4NkE0T3c3anNrZDlSNHVhLXdsQ05tT1VsWnVPUXp6aEVsU2MxTi1DZTVxWl9wNUVxeFZpUVdXdU44SGhmNEZSX3pBbGFiNEI0NVIzQ293cUFraHNjcl9yUS04XzBhTFNrZV9neG5Sc2ZXR2ExaTVVcjNkQk5nT3lmVmtCY2NCVmJNMk43NE9hTFhueFg2RzBuMG9xdDNteUlDU2hzZWZPem1FRUh0YllTRWhoQkFTLTY3dUFZVjBSdzhtRDc1LVVvUmpHdDZ2bzB1Qmxvc3BHUXEyRHlyNGFQT3RjSGxlMTlNdHBmWThjcFEteXo5SUhhXzZMNm9SZWlEM2VNM0c1UV9FVVQ0Wg?oc=5",
       "medio": "FM Del Sol Pehuajo",
-      "fecha": "2026-11-01T01:02+00:00",
+      "fecha": "2026-11-02T17:27+00:00",
       "tema": "Consulado"
     },
     {
-      "titulo": "Mojar pan en la salsa estuvo mal visto en Italia hasta que en 2015 el padre de la alta cocina italiana lo defendió: es elegante si se hace con los dedos",
-      "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbXZnLXdNNjM0WHlwZURxMzJpd3V1Rk5ub0tMaFNFb3BzeG9uU3Fmb3hKUmRNN3dCUjhOaVVtU2pfYTlHZzBzVjdNeGpNTUFld0pGQm5lWjBFQUV1REJ4amIxMFJCMU52WkxSdlc4YmdITDFmTlM4RGF1NnBUZ3lQUXpHUUMxQm44S2hiQ1VaazhkcVFxdXFOSy1OY3UzS25vRkVaTFZRSW5zMU5lWExad19hNDVqdVlqWXlQS01VV2p1Y09kUUNQanRxUTZMOFVIOTZmSXhCbmU4NE43ODlCUNIB9AFBVV95cUxPenhMX3hHRzcxNE5wcGhJbzk5VzJTMWxKeTRPUktiWmd6d0ZiQ0cxaWVyTXVBY1FlNHhPTEhuVUVqd1BEM2tMVkdZVl85M3Y5NlB2WmliZEIyQnc1MTE5eDY5OUZhcTQyVHlTd0ZwRWliRG9DanRsS0JUeHg4UWZtSFE0WTJuVXYyVlJCVzdERGNKLWNTWTlNLWROVVhGb2RwMkZDbzNKc3BFVGk5RElWT1JXOEFYVHhnU3JkZmEtUHFmbllmTXZCWFIwQzI4Sk1XQTBxeWVqVm5NUE8zSndiWnFXb0I5dmt3NW9aVHFHSDQxeEJT?oc=5",
-      "medio": "El HuffPost",
-      "fecha": "2026-11-01T09:20+00:00",
+      "titulo": "Atrayentes y variadas propuestas en el Círculo Italiano de Buenos Aires",
+      "enlace": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcVRRSzh2bnktUGFkbGZwcVB1MUNIMVU5QlVLMTZkcF9EZ2ExaEczb05MMjNIa1RvMDBoX1U3amxQRzRybFhHaml1REJlQi1NYWwtd2c2T1pDQi0xT1h0TUE2bnVkMFdSRnFDVnp5V1VmMU5YVDlGMjNuT0JEbWs1RDAxVjJ3a2htQmtmakxSaUFqQUF4aDVGeURwTWI0UV92WlFBaUtLODdrRE9UV04waDIwR3RiWk9PdnFnS3BjZTY2MkZwUlk1cEQwU3ZfM3AzRExGZFN4WVR4RURCWWVUdFRNR2dQYjRPdWtqRTd5VUxnMEk5dnQwbUhVclVEZUFoRGV1V3h1YU9BbU9YOGVoUkxNbllrUi1SQi1rZ9IBnAJBVV95cUxOcVRRSzh2bnktUGFkbGZwcVB1MUNIMVU5QlVLMTZkcF9EZ2ExaEczb05MMjNIa1RvMDBoX1U3amxQRzRybFhHaml1REJlQi1NYWwtd2c2T1pDQi0xT1h0TUE2bnVkMFdSRnFDVnp5V1VmMU5YVDlGMjNuT0JEbWs1RDAxVjJ3a2htQmtmakxSaUFqQUF4aDVGeURwTWI0UV92WlFBaUtLODdrRE9UV04waDIwR3RiWk9PdnFnS3BjZTY2MkZwUlk1cEQwU3ZfM3AzRExGZFN4WVR4RURCWWVUdFRNR2dQYjRPdWtqRTd5VUxnMEk5dnQwbUhVclVEZUFoRGV1V3h1YU9BbU9YOGVoUkxNbllrUi1SQi1rZw?oc=5",
+      "medio": "ANSA Latina",
+      "fecha": "2026-11-02T13:32+00:00",
       "tema": "Cultura"
     },
     {
-      "titulo": "Clayface se proyectará el domingo en el Cine de Salliqueló",
-      "enlace": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiMHFiREppQktVUXdZZGljbUtEZnp2YjAyTDFFVnlkQVRCNG1QT25YNFREMnA3b3c2aHRDSGdSVDE1dzZjRHYwLTk5N19BcEhxbFc0?oc=5",
-      "medio": "Veradia.com",
-      "fecha": "2026-10-31T10:31+00:00",
+      "titulo": "Música, teatro y danza en la agenda de junio del Teatro 3 de Febrero",
+      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWU3ZXFiMmNxWTBtVmN6aHRnVF9NM1prUHBlRnNoWnNsRGpRSXA2dFZvbUxMMVFuc3JORjhuRVRDbE5xZU0xM0JRTUgtZW1VZy0wMlhuVHRETTBqaFFpcE1pN0NuemdHRG9WUUc5bVlVQUM0SU0xT2ZHZnk5aERMdHBzLVVtclhRNG9Ed0pKbW1Tbk5fSWlUZ3NMLXpOSXZDLWVTUg?oc=5",
+      "medio": "Municipalidad de Paraná",
+      "fecha": "2026-11-02T12:03+00:00",
       "tema": "Patrimonio"
     },
     {
-      "titulo": "Embajada de Italia impulsa formación de agentes turísticos",
-      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUdkTC1yQzN0ZG83Y3hCMnA5VGZyVm8wTzN1dlVXME5qSk9JRm5JMFVMclJDZnBBV3ZJNmRsYUQ2WG9rT0piaU4xald5Vy15cUlpTzdCdUM0OUxScWtRRHJXNmZqbkRZMHpTT0l6MDBLZmFfVDJhVFpOaFVQSi1yYS1zLU91TVhXcm1rQVBB?oc=5",
-      "medio": "primicias.net",
-      "fecha": "2026-10-31T20:27+00:00",
+      "titulo": "Estudiante IBERO gana tercer lugar en concurso de la Embajada de Italia en México",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1A3d1d1dmc5UDlDaHo2b1B2bWxHQ1g2dXYwN1NnbkJTOGJwd29MMlR5VGduME9VMEdpZlcxRHlXclRzZGNXUFdtbE5NSWZzUTl4ZnhFQ1VvQjJSMnRqZlJ2QThSOWlkdjY5c1NUQ1U1ZDN5QWdEdzBndS1NcVJUeG1uTFY3S3NFb0pqTW9sTTFvQjlfVzV2N1FiSzlneUxBeFlXbV8zMG55VGg3S0FTSlF6QUNqMVE?oc=5",
+      "medio": "Prensa Ibero",
+      "fecha": "2026-11-02T14:08+00:00",
       "tema": "Italia y Argentina"
     },
     {
