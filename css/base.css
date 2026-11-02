@@ -137,6 +137,32 @@
 .boton-ruta:focus-visible{outline:2px solid var(--s-rojo); outline-offset:3px}
 .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0}
 
+/* ── Visor de imágenes (js/visor.js) ─────────────────── */
+.lightbox{
+  padding:0; border:0; background:rgba(10,15,12,.96); color:#fff;
+  width:min(95vw,1200px); max-width:none; max-height:92vh;
+}
+.lightbox::backdrop{background:rgba(10,15,12,.72); backdrop-filter:blur(3px)}
+.lightbox figure{margin:0; padding:32px 24px 24px; display:grid; gap:16px}
+.lightbox img{display:block; max-width:100%; max-height:calc(92vh - 140px); margin:0 auto; object-fit:contain}
+.lightbox figcaption{text-align:center; font:italic 500 clamp(14px,1.4vw,17px)/1.5 var(--s-fuente-titulos); color:#e7e3d8}
+.lightbox button{
+  position:absolute; display:grid; place-items:center;
+  width:44px; height:44px; padding:0; border-radius:50%;
+  border:1px solid rgba(255,255,255,.4); background:rgba(255,255,255,.06); color:#fff;
+  font-size:22px; line-height:1; cursor:pointer;
+}
+.lightbox button:hover,
+.lightbox button:focus-visible{background:rgba(255,255,255,.22)}
+.lightbox-cerrar{top:10px; right:10px}
+.lightbox-prev{top:50%; left:10px; transform:translateY(-50%)}
+.lightbox-next{top:50%; right:10px; transform:translateY(-50%)}
+@media (max-width:600px){
+  .lightbox-prev, .lightbox-next{top:auto; bottom:12px; transform:none}
+  .lightbox-prev{left:12px}
+  .lightbox-next{right:12px}
+}
+
 /* ── Franja del menú en las páginas internas ─────────── */
 /* <header class="menu-sitio"> con el <nav> adentro (Historia, Cultura, Consulado, Contacto). */
 :root{--alto-menu:82px}

@@ -254,30 +254,6 @@
 .galeria figure:hover figcaption,
 .galeria figure:focus-within figcaption{opacity:1; transform:none}
 
-.lightbox{
-  padding:0; border:0; background:rgba(10,15,12,.96); color:#fff;
-  width:min(95vw,1200px); max-width:none; max-height:92vh;
-}
-.lightbox::backdrop{background:rgba(10,15,12,.72); backdrop-filter:blur(3px)}
-.lightbox figure{margin:0; padding:32px 24px 24px; display:grid; gap:16px}
-.lightbox img{display:block; max-width:100%; max-height:calc(92vh - 140px); margin:0 auto; object-fit:contain}
-.lightbox figcaption{text-align:center; font:italic 500 clamp(14px,1.4vw,17px)/1.5 var(--serif); color:#e7e3d8}
-.lightbox button{
-  position:absolute; display:grid; place-items:center;
-  width:44px; height:44px; padding:0; border-radius:50%;
-  border:1px solid rgba(255,255,255,.4); background:rgba(255,255,255,.06); color:#fff;
-  font-size:22px; line-height:1; cursor:pointer;
-}
-.lightbox button:hover,
-.lightbox button:focus-visible{background:rgba(255,255,255,.22)}
-.lightbox-cerrar{top:10px; right:10px}
-.lightbox-prev{top:50%; left:10px; transform:translateY(-50%)}
-.lightbox-next{top:50%; right:10px; transform:translateY(-50%)}
-@media (max-width:600px){
-  .lightbox-prev, .lightbox-next{top:auto; bottom:12px; transform:none}
-  .lightbox-prev{left:12px}
-  .lightbox-next{right:12px}
-}
 </style>
 </head>
 <body>
@@ -441,7 +417,7 @@
           <h3 data-t="c-pag-19">Galería</h3>
           <p data-t="c-pag-20">Fotografías e imágenes de Italia y su arte.</p>
         </div>
-        <div class="galeria">
+        <div class="galeria" data-visor>
           <figure class="g-alta g-ancha">
             <a href="img/galeria/italia%20(1).jpeg" class="gal-link">
               <img src="img/galeria/italia%20(1).jpeg" loading="lazy" decoding="async" alt="Caravaggio, «La vocación de san Mateo» (1599–1600)" data-t-attr="alt:c-gal-1">
@@ -1164,60 +1140,8 @@
   seleccionar(REGION_INICIAL, { anunciar:false });
 </script>
 
-  <!-- Lightbox de la galería -->
-  <dialog id="gal-lightbox" class="lightbox" aria-label="Visor de imágenes" data-t-attr="aria-label:c-a-visor">
-    <button type="button" class="lightbox-cerrar" aria-label="Cerrar" data-t-attr="aria-label:c-a-cerrar">×</button>
-    <button type="button" class="lightbox-prev" aria-label="Imagen anterior" data-t-attr="aria-label:c-a-img-anterior">‹</button>
-    <button type="button" class="lightbox-next" aria-label="Imagen siguiente" data-t-attr="aria-label:c-a-img-siguiente">›</button>
-    <figure>
-      <img alt="">
-      <figcaption></figcaption>
-    </figure>
-  </dialog>
-
-  <script>
-  (() => {
-    const dlg = document.getElementById("gal-lightbox");
-    if (!dlg) return;
-    const img = dlg.querySelector("img");
-    const cap = dlg.querySelector("figcaption");
-    const items = [...document.querySelectorAll(".galeria a.gal-link")];
-    if (!items.length) return;
-    let idx = 0;
-
-    function mostrar(i){
-      idx = (i + items.length) % items.length;
-      const a = items[idx];
-      const fig = a.closest("figure");
-      const texto = (fig.querySelector("figcaption")?.textContent || "").trim();
-      img.src = a.href;
-      img.alt = texto;
-      cap.textContent = texto;
-      cap.hidden = !texto;
-    }
-
-    items.forEach((a, i) => {
-      a.addEventListener("click", e => {
-        e.preventDefault();
-        mostrar(i);
-        dlg.showModal();
-      });
-    });
-
-    dlg.querySelector(".lightbox-cerrar").addEventListener("click", () => dlg.close());
-    dlg.querySelector(".lightbox-prev").addEventListener("click", () => mostrar(idx - 1));
-    dlg.querySelector(".lightbox-next").addEventListener("click", () => mostrar(idx + 1));
-
-    // Clic en el fondo oscuro (fuera del contenido) cierra
-    dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
-
-    // Flechas ← → dentro del visor
-    dlg.addEventListener("keydown", e => {
-      if (e.key === "ArrowLeft") mostrar(idx - 1);
-      if (e.key === "ArrowRight") mostrar(idx + 1);
-    });
-  })();
-  </script>
+  <!-- Visor de la galería: lo arma js/visor.js -->
+  <script src="js/visor.js"></script>
   
 </body>
 </html>
