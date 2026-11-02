@@ -21,7 +21,8 @@ const I18N = {
     supportEyebrow: "Sumate a la red", supportTitle: "Apoyanos",
     supportDonateTitle: "Aportá", supportDonateText: "No importa el monto: tu donación hace una diferencia real para nosotros.", supportDonateBtn: "Donar",
     supportJoinTitle: "Asociate", supportJoinText: "Tu membresía nos permite sostener nuestros proyectos y crecer mes a mes.", supportJoinBtn: "Hacerme socio",
-    supportShareTitle: "Colaborá", supportShareText: "Sumá tu empresa como sponsor o colaborá con insumos para potenciar nuestro trabajo.", supportShareBtn: "Contactanos"
+    supportShareTitle: "Colaborá", supportShareText: "Sumá tu empresa como sponsor o colaborá con insumos para potenciar nuestro trabajo.", supportShareBtn: "Contactanos",
+    supportArchiveText: "¿Tenés fotos o documentos antiguos de la Sociedad?", supportArchiveLink: "Ayudanos a completar su historia →"
   },
   en: {
     skip: "Skip to content",
@@ -41,7 +42,8 @@ const I18N = {
     supportEyebrow: "Join the network", supportTitle: "Support us",
     supportDonateTitle: "Donate", supportDonateText: "No matter the amount, your donation makes a real difference for us.", supportDonateBtn: "Donate",
     supportJoinTitle: "Become a member", supportJoinText: "Your membership helps us sustain our projects and grow month after month.", supportJoinBtn: "Become a member",
-    supportShareTitle: "Collaborate", supportShareText: "Join as a sponsor company or contribute supplies to boost our work.", supportShareBtn: "Contact us"
+    supportShareTitle: "Collaborate", supportShareText: "Join as a sponsor company or contribute supplies to boost our work.", supportShareBtn: "Contact us",
+    supportArchiveText: "Do you have old photos or documents of the Society?", supportArchiveLink: "Help us complete its history →"
   },
   it: {
     skip: "Vai al contenuto",
@@ -61,7 +63,8 @@ const I18N = {
     supportEyebrow: "Entra nella rete", supportTitle: "Sostienici",
     supportDonateTitle: "Dona", supportDonateText: "Qualsiasi sia la cifra, la tua donazione fa davvero la differenza per noi.", supportDonateBtn: "Dona",
     supportJoinTitle: "Diventa socio", supportJoinText: "La tua iscrizione ci permette di sostenere i nostri progetti e di crescere mese dopo mese.", supportJoinBtn: "Diventa socio",
-    supportShareTitle: "Collabora", supportShareText: "Partecipa come azienda sponsor o collabora con materiali per potenziare il nostro lavoro.", supportShareBtn: "Contattaci"
+    supportShareTitle: "Collabora", supportShareText: "Partecipa come azienda sponsor o collabora con materiali per potenziare il nostro lavoro.", supportShareBtn: "Contattaci",
+    supportArchiveText: "Hai vecchie foto o documenti della Società?", supportArchiveLink: "Aiutaci a completare la sua storia →"
   }
 };
 

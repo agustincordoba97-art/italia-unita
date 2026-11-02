@@ -21,6 +21,7 @@ window.SITIO_TRADUCCIONES = {
     "grupo-island": "Islas"
   },
   it: {
+    "c-archivo-1": "La tua famiglia è arrivata dall'Italia? Condividi la sua storia →",
     "c-proximas-1": "Prossimamente",
     "c-proximas-2": "Sezioni in preparazione.",
     "titulo": "Cultura italiana · Mappa interattiva dell'Italia",
@@ -115,6 +116,7 @@ window.SITIO_TRADUCCIONES = {
     "genero:Utopía filosófica": "Utopia filosofica"
   },
   en: {
+    "c-archivo-1": "Did your family come from Italy? Share their story →",
     "c-proximas-1": "Coming soon",
     "c-proximas-2": "Sections in progress.",
     "titulo": "Italian culture · Interactive map of Italy",

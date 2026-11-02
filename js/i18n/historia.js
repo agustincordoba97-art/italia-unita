@@ -5,6 +5,8 @@ window.SITIO_TRADUCCIONES = {
     "comparadorValor": "Antes {a} %, después {d} %"
   },
   it: {
+    "h-archivo-foto": "Hai questa foto?",
+    "h-archivo-dato": "Hai dati o foto? Aiutaci a completarlo →",
     "h-archivo-1": "<span>Epilogo</span>Archivio della comunità",
     "h-archivo-2": "Aiutaci a completare <em>questa storia.</em>",
     "h-archivo-3": "L'archivio della Società è quasi inesistente: molte foto e molti documenti di questi oltre cento anni sono custoditi nelle case di Gálvez.",
@@ -144,6 +146,8 @@ window.SITIO_TRADUCCIONES = {
     "h-actas-9": "Ci furono comunque nuovi slanci: nel 1987 iniziarono le lezioni di cultura e lingua italiana, con 58 iscritti; la scuola ebbe un'aula e una biblioteca, ricevette contributi dal governo italiano e nel 1990 ebbe i suoi primi 20 diplomati.<sup><a href=\"#fuente-5\" aria-label=\"Fonte 5\">5</a></sup>"
   },
   en: {
+    "h-archivo-foto": "Do you have this photo?",
+    "h-archivo-dato": "Do you have information or photos? Help us complete it →",
     "h-archivo-1": "<span>Epilogue</span>Community archive",
     "h-archivo-2": "Help us complete <em>this story.</em>",
     "h-archivo-3": "The Society's archive is almost nonexistent: many photos and documents from more than a hundred years are kept in homes across Gálvez.",

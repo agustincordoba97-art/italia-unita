@@ -140,6 +140,10 @@ sup a:focus-visible{outline:2px solid var(--h-ambar)}
 .pendiente ul{margin:0; padding-left:1.2em}
 .pendiente li{margin:2px 0}
 .pendiente li::marker{color:var(--h-ambar)}
+.pendiente-ayuda{margin:10px 0 0}
+.pendiente-ayuda a, .foto-pedido{color:var(--h-ambar); font-weight:700; text-underline-offset:3px}
+.pendiente-ayuda a:focus-visible, .foto-pedido:focus-visible{outline:2px solid var(--h-ambar); outline-offset:2px}
+.foto-pedido{position:relative; z-index:2; margin-top:4px; font-size:12.5px}
 
 /* ── Fotografías ─────────────────────────────────────── */
 .foto{position:relative; margin:0}

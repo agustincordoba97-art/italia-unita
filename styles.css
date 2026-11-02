@@ -137,6 +137,10 @@ body {
 .support-col p{margin:0 0 26px;color:#eaf3ee;font-size:15px;line-height:1.6}
 .support-btn{display:inline-flex;align-items:center;gap:10px;min-height:var(--s-boton-alto);padding:var(--s-boton-relleno);border-radius:var(--s-radio);background:var(--ink);color:var(--gold);font:var(--s-boton-letra);text-decoration:none;transition:background-color .2s ease,color .2s ease}
 .support-btn:hover{background:var(--gold);color:var(--ink)}
+/* Pedido de fotos (lleva al epílogo de Historia) */
+.support-archivo{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:48px 0 0;padding-top:26px;border-top:1px solid rgba(255,255,255,.3);color:#eaf3ee;font-size:15px;line-height:1.5}
+.support-archivo svg{width:24px;height:24px;flex:none;color:var(--gold)}
+.support-archivo a{color:var(--gold);font-weight:700;text-underline-offset:3px}
 
 /* ===== Dónde estamos (mapa) ===== */
 .map-sec{padding:100px 28px 20px}
