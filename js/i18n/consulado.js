@@ -12,6 +12,13 @@ window.SITIO_TRADUCCIONES = {
     "estadoEnviado": "Se intentó abrir tu aplicación de correo. Si no se abrió, escribinos desde tu correo habitual; recordá reemplazar la dirección institucional si corresponde."
   },
   it: {
+    "co-a-indice": "Sezioni di questa guida",
+    "co-indice-0": "In questa guida",
+    "co-indice-1": "<span>01</span>Cittadinanza",
+    "co-indice-2": "<span>02</span>Voto e anagrafe",
+    "co-indice-3": "<span>03</span>Altre pratiche",
+    "co-indice-4": "<span>04</span>Domande frequenti",
+    "co-indice-5": "<span>05</span>La tua richiesta",
     "saltar": "Vai al contenuto",
     "titulo": "Servizi consolari | Società Italiana di Mutuo Soccorso",
     "correoAsunto": "Richiesta consolare",
@@ -118,6 +125,13 @@ window.SITIO_TRADUCCIONES = {
     "co-consulta-23": "Informazioni verificate sui siti ufficiali del Consolato Generale d'Italia a Rosario. Le procedure possono cambiare; verifica sempre le informazioni aggiornate prima di agire."
   },
   en: {
+    "co-a-indice": "Sections of this guide",
+    "co-indice-0": "In this guide",
+    "co-indice-1": "<span>01</span>Citizenship",
+    "co-indice-2": "<span>02</span>Voting and registration",
+    "co-indice-3": "<span>03</span>Other procedures",
+    "co-indice-4": "<span>04</span>FAQ",
+    "co-indice-5": "<span>05</span>Your inquiry",
     "saltar": "Skip to content",
     "titulo": "Consular services | Italian Mutual Aid Society",
     "correoAsunto": "Consular enquiry",

@@ -49,10 +49,24 @@
   content:""; position:absolute; right:clamp(16px,4vw,56px); bottom:0; z-index:0; width:min(30%,340px); aspect-ratio:330/256; pointer-events:none;
   background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 330 256' fill='none' stroke='%23f2f4d7' stroke-opacity='0.26' stroke-width='2'%3E%3Cpath d='M14 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M124 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M234 250V112a40 40 0 0 1 80 0v138'/%3E%3Cpath d='M0 252h330'/%3E%3Cpath d='M4 40h322' stroke-dasharray='2 10'/%3E%3C/svg%3E") right bottom/contain no-repeat;
 }
-@media (max-width:850px){ .consulate-hero::after{width:min(60%,300px); opacity:.5} }
+/* La arcada no cruza el índice: en pantallas anchas el índice ocupa el lado izquierdo; en las angostas, la arcada
+   se achica y queda junto al último renglón del índice. */
+@media (min-width:851px){ .consulate-indice{max-width:62%} }
+@media (max-width:850px){ .consulate-hero::after{width:min(30%,120px); opacity:.6} }
 .consulate-hero .eyebrow{color:var(--s-dorado)}
 .consulate-hero h1{max-width:850px; margin:22px 0 20px; color:#fff; font-size:clamp(40px,7vw,80px); letter-spacing:-.03em}
 .consulate-hero > p:not(.eyebrow){max-width:720px; margin:0; color:#e6eee7; font-size:clamp(16px,2vw,19px); line-height:1.6}
+/* Índice de la guía (mismo diseño que el de Historia) */
+.consulate-indice{margin-top:clamp(36px,5vw,56px)}
+.consulate-indice-titulo{margin:0 0 14px; font:700 11px/1.2 var(--s-fuente-texto); letter-spacing:.22em; text-transform:uppercase; color:#cfe6d6}
+.consulate-indice ol{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); margin:0; padding:0; list-style:none; border-top:1px solid rgba(244,241,233,.22)}
+.consulate-indice li{border-bottom:1px solid rgba(244,241,233,.22)}
+.consulate-indice a{display:flex; flex-direction:column; gap:6px; padding:16px 12px 16px 0; color:var(--s-marfil); text-decoration:none; font:500 14.5px/1.3 var(--s-fuente-texto); transition:transform .2s ease}
+.consulate-indice a span{font:italic 400 24px/1 var(--s-fuente-titulos); color:var(--s-dorado)}
+.consulate-indice a:hover{transform:translateY(-3px)}
+.consulate-indice a:focus-visible{outline:2px solid var(--s-dorado); outline-offset:2px}
+@media (min-width:720px){ .consulate-indice ol{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media (min-width:1040px){ .consulate-indice ol{grid-template-columns:repeat(5,minmax(0,1fr))} }
 .consulate-actions{position:relative; z-index:1; display:flex; flex-wrap:wrap; gap:12px; margin-top:28px}
 
 /* Botones */
@@ -157,7 +171,7 @@
   .consulate-band .consulate-button{justify-self:start; white-space:normal}
   .consulate-form{padding:20px}
 }
-@media (prefers-reduced-motion:reduce){ .consulate-section > *, .consulate-button{transition:none} }
+@media (prefers-reduced-motion:reduce){ .consulate-section > *, .consulate-button, .consulate-indice a{transition:none} }
 </style>
 <script>
   // Aparición suave de cada sección al llegar a ella. Sin JavaScript, o con menos movimiento, todo se ve desde el principio.
@@ -198,6 +212,16 @@
         <a class="consulate-button" href="https://consrosario.esteri.it/es/" target="_blank" rel="noopener" data-t="co-accesos-4">Web oficial del Consulado ↗</a>
         <a class="consulate-button secondary" href="https://prenotami.esteri.it/" target="_blank" rel="noopener" data-t="co-accesos-5">Acceder a Prenot@Mi ↗</a>
       </div>
+      <nav class="consulate-indice" aria-label="Secciones de esta guía" data-t-attr="aria-label:co-a-indice">
+        <p class="consulate-indice-titulo" data-t="co-indice-0">En esta guía</p>
+        <ol>
+          <li><a href="#ciudadania" data-t="co-indice-1"><span>01</span>Ciudadanía</a></li>
+          <li><a href="#voto" data-t="co-indice-2"><span>02</span>Voto y padrón</a></li>
+          <li><a href="#tramites" data-t="co-indice-3"><span>03</span>Otros trámites</a></li>
+          <li><a href="#preguntas" data-t="co-indice-4"><span>04</span>Preguntas frecuentes</a></li>
+          <li><a href="#consulta" data-t="co-indice-5"><span>05</span>Tu consulta</a></li>
+        </ol>
+      </nav>
     </section>
 
     <section class="consulate-section" id="ciudadania">
