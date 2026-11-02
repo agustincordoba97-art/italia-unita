@@ -199,14 +199,21 @@ document.getElementById('contact-form').addEventListener('submit', function(even
   window.location.href = 'mailto:contacto@sociedad.org.ar?subject=' + subject + '&body=' + body;
 });
 
-// Desde la portada y el pie: contacto.html?tipo=socio|colabora|sugerencia elige el tipo de consulta.
+// Enlaces de la portada, de Historia y del pie: contacto.html?tipo=... elige el tipo de consulta y, a veces, el asunto.
 (() => {
-  const tipo = new URLSearchParams(location.search).get('tipo');
-  const opcion = { sugerencia: 1, socio: 3, colabora: 4 }[tipo];   // General, Socios, Aportes y colaboración
+  const TIPOS = {   // clave data-t de la opción (ct-pag-13 General … ct-pag-16 Aportes y colaboración) · clave del asunto
+    sugerencia: ['ct-pag-13', 'asuntoSugerencia'],
+    socio:      ['ct-pag-15'],
+    colabora:   ['ct-pag-16'],
+    donacion:   ['ct-pag-16', 'asuntoDonacion'],
+    sponsor:    ['ct-pag-16', 'asuntoSponsor'],
+  };
+  const [opcion, asunto] = TIPOS[new URLSearchParams(location.search).get('tipo')] || [];
   const form = document.getElementById('contact-form');
-  if (!opcion || !form) return;
-  form.categoria.selectedIndex = opcion;
-  if (tipo === 'sugerencia' && !form.asunto.value) form.asunto.value = window.Sitio ? Sitio.t('asuntoSugerencia') : 'Sugerencia';
+  const elegida = opcion && form && form.categoria.querySelector(`option[data-t="${opcion}"]`);
+  if (!elegida) return;
+  elegida.selected = true;
+  if (asunto && !form.asunto.value && window.Sitio) form.asunto.value = Sitio.t(asunto);
 })();
 </script>
 </body>

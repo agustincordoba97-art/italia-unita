@@ -133,6 +133,42 @@
     </div>
   </section>
 
+  <!-- Orden: lo propio de la Sociedad (obras y cómo ayudar), después la comunidad (redes y noticias) y al final
+       cómo llegar. Los fondos alternan claro y oscuro: obras · apoyanos · redes · noticias · mapa · pie. -->
+
+  <!-- EN QUÉ ESTAMOS TRABAJANDO -->
+  <section class="works wrap">
+    <p class="eyebrow" data-i18n="worksEyebrow">Nuestros proyectos</p>
+    <h2 class="big" data-i18n="worksTitle">¿En qué estamos trabajando?</h2>
+    <p class="works-sub" data-i18n="worksSub">Para lograr la habilitación de la galería y el microcine, la nueva gestión lleva adelante obras de infraestructura fundamental:</p>
+    <div class="tickets" id="works-grid"></div>
+  </section>
+
+  <!-- APOYANOS: justo después de las obras, que explican para qué se pide ayuda -->
+  <section class="support">
+    <div class="wrap support-in">
+      <p class="eyebrow" data-i18n="supportEyebrow">Sumate a la red</p>
+      <h2 class="big" data-i18n="supportTitle">Apoyanos</h2>
+      <div class="support-grid">
+        <div class="support-col">
+          <h3 data-i18n="supportDonateTitle">Aportá</h3>
+          <p data-i18n="supportDonateText">No importa el monto: tu donación hace una diferencia real para nosotros.</p>
+          <a class="support-btn" href="contacto.html?tipo=donacion#contact-form" data-i18n="supportDonateBtn">Donar</a>
+        </div>
+        <div class="support-col">
+          <h3 data-i18n="supportJoinTitle">Asociate</h3>
+          <p data-i18n="supportJoinText">Tu membresía nos permite sostener nuestros proyectos y crecer mes a mes.</p>
+          <a class="support-btn" href="contacto.html?tipo=socio#contact-form" data-i18n="supportJoinBtn">Hacerme socio</a>
+        </div>
+        <div class="support-col">
+          <h3 data-i18n="supportShareTitle">Colaborá</h3>
+          <p data-i18n="supportShareText">Sumá tu empresa como sponsor o colaborá con insumos para potenciar nuestro trabajo.</p>
+          <a class="support-btn" href="contacto.html?tipo=sponsor#contact-form" data-i18n="supportShareBtn">Contactanos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- COMUNIDAD: tarjetas propias de Facebook e Instagram (sin recuadros externos). Toda la tarjeta es un enlace. -->
   <section class="social-section wrap" id="redes-sociales" aria-labelledby="redes-titulo">
     <div class="section-heading">
@@ -158,9 +194,6 @@
     </div>
   </section>
 
-  <!-- NOTICIAS DE ITALIA: sección independiente debajo de las redes -->
-  
-
   <!-- NOTICIAS: titulares automáticos de Google News (GitHub Actions actualiza js/noticias.js dos veces por día) -->
   <section class="noticias-franja" id="noticias" aria-labelledby="noticias-titulo">
     <div class="wrap noticias-in">
@@ -170,14 +203,6 @@
       <ol class="noticias-lista" id="noticias-lista"></ol>
       <p class="noticias-estado" id="noticias-estado"></p>
     </div>
-  </section>
-
-  <!-- EN QUÉ ESTAMOS TRABAJANDO -->
-  <section class="works wrap">
-    <p class="eyebrow" data-i18n="worksEyebrow">Nuestros proyectos</p>
-    <h2 class="big" data-i18n="worksTitle">¿En qué estamos trabajando?</h2>
-    <p class="works-sub" data-i18n="worksSub">Para lograr la habilitación de la galería y el microcine, la nueva gestión lleva adelante obras de infraestructura fundamental:</p>
-    <div class="tickets" id="works-grid"></div>
   </section>
 
   <!-- DÓNDE ESTAMOS -->
@@ -194,34 +219,8 @@
     <div class="map-frame">
       <iframe src="https://www.google.com/maps?q=Belgrano+664%2C+G%C3%A1lvez%2C+Santa+Fe%2C+Argentina&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa: Belgrano 664, Gálvez"></iframe>
     </div>
-    <br>
   </section>
 </main>
-
-  <!-- APOYANOS -->
-  <section class="support">
-    <div class="wrap support-in">
-      <p class="eyebrow" data-i18n="supportEyebrow">Sumate a la red</p>
-      <h2 class="big" data-i18n="supportTitle">Apoyanos</h2>
-      <div class="support-grid">
-        <div class="support-col">
-          <h3 data-i18n="supportDonateTitle">Aportá</h3>
-          <p data-i18n="supportDonateText">No importa el monto: tu donación hace una diferencia real para nosotros.</p>
-          <a class="support-btn" href="contacto.html" data-i18n="supportDonateBtn">Donar</a>
-        </div>
-        <div class="support-col">
-          <h3 data-i18n="supportJoinTitle">Asociate</h3>
-          <p data-i18n="supportJoinText">Tu membresía nos permite sostener nuestros proyectos y crecer mes a mes.</p>
-          <a class="support-btn" href="contacto.html" data-i18n="supportJoinBtn">Hacerme socio</a>
-        </div>
-        <div class="support-col">
-          <h3 data-i18n="supportShareTitle">Colaborá</h3>
-          <p data-i18n="supportShareText">Sumá tu empresa como sponsor o colaborá con insumos para potenciar nuestro trabajo.</p>
-          <a class="support-btn" href="contacto.html" data-i18n="supportShareBtn">Contactanos</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
 <!-- PIE DE PÁGINA -->
 <footer class="foot" data-sitio="pie"></footer>

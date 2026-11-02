@@ -11,7 +11,9 @@ window.SITIO_TRADUCCIONES = {
     "correoTema": "Asunto",
     "correoMensaje": "Mensaje",
     "estadoEnviado": "Se abrirá tu aplicación de correo. Revisá el destinatario y el contenido antes de enviar.",
-    "asuntoSugerencia": "Sugerencia"
+    "asuntoSugerencia": "Sugerencia",
+    "asuntoSponsor": "Sponsor o insumos",
+    "asuntoDonacion": "Donación"
   },
   it: {
     "ct-ruta": "Vedi il percorso",
@@ -28,6 +30,8 @@ window.SITIO_TRADUCCIONES = {
     "correoMensaje": "Messaggio",
     "estadoEnviado": "Si aprirà la tua applicazione di posta. Controlla il destinatario e il contenuto prima dell'invio.",
     "asuntoSugerencia": "Suggerimento",
+    "asuntoSponsor": "Sponsor o materiali",
+    "asuntoDonacion": "Donazione",
     "ct-a-migas": "Percorso di navigazione",
     "ct-a-formulario": "Modulo e informazioni di contatto",
     "ct-a-nombre": "Il tuo nome e cognome",
@@ -86,6 +90,8 @@ window.SITIO_TRADUCCIONES = {
     "correoMensaje": "Message",
     "estadoEnviado": "Your email app will open. Check the recipient and the content before sending.",
     "asuntoSugerencia": "Suggestion",
+    "asuntoSponsor": "Sponsorship or supplies",
+    "asuntoDonacion": "Donation",
     "ct-a-migas": "Breadcrumb",
     "ct-a-formulario": "Form and contact information",
     "ct-a-nombre": "Your first and last name",
