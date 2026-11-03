@@ -1,26 +1,19 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-02T20:23+00:00",
+  "actualizado": "2026-11-03T03:29+00:00",
   "items": [
     {
-      "titulo": "Muere Virginio Mantesso Neto, investigador de la inmigración italiana, a los 83 años",
-      "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRMkpwemRxUGtJdFh4UDlkRmlYVVc5RWlCZWRhUGhSVWFMWVVOSzBrVXVhVm5hamZQbnRxSTNDTlJEd0dYZHF5dl90WGtUMm5Pc0h2NWdGTkxpUDR3aFc5emR1d1lIVE15c2JJaEI1OWNBMjVMVXFDZmRkSGk?oc=5",
-      "medio": "Revista Insieme",
-      "fecha": "2026-11-01T16:47+00:00",
-      "tema": "Comunidad"
-    },
-    {
-      "titulo": "Ciudadanía italiana: un fallo clave amplía el acceso a la nacionalidad a descendientes que creían no tener chance",
-      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS2VKaTB3X3FQQWRSWXhNVHBhS3RzNmRfYWFpdFlaNC11TWFyMzJjN2I5ZzR0MTl6SDNRUURmRjd4ZS1FM3RSTWlsaUY3QXZ1UWZFNEdibmROVmRnSUVGdDJLUHl0dXI3Wkd5T3gxMFdENENFU3F6ZnJsc2NyR3c4QXRRUW5uZkh3WDd5RGprUFJxUXpNV0xvUHU5dEp4cnZlbVBZZUd5aWIzaDFTa0tLS3Bqa0JwUzk5dWlLWDZGeW85TVAxMVN5R0twT1k1Z0pnTzUzdGJmQWNHOGhfSzdDaEg2R3BDZDAwWGfSAYQCQVVfeXFMTl9MaVR3X2dUbnR4b0xaXzFtWDRNVlVxQ3I5QVpWM3ZVaGJlcmxlQmNWdlJySmszanR1d3I2ekpwdWVyMVJyckZzR2J6Z2ozcTB2WFhiQklBNGxIb1dfVHRSTGpPRVBpTGNhUDQ2QzVQWkQzY0NCYkJDendGbGpwUnVVZHQzdmU0ZENnbEZkVUlBcTNzb3JUOWJoNlJkNlJ1Qk1IdVFPQzV6QmhiQzJ6NExYeEVZbkl5N2R1azlidHV5VHJJaFFoNXB3OWdJcUhRWmVYcUlpTHBMeUJqMmlFdFZHVVJwQ0ZZQnRSQWhWcmprYnJNRHUxaEZLNDJRaldOQ2czQ0c?oc=5",
-      "medio": "El Cronista",
-      "fecha": "2026-11-02T14:50+00:00",
+      "titulo": "Informe Olé: un año cargado de escándalos arbitrales con protagonistas en llamas",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcE13eEdVUXpjLXB4V3Q5RFJBSjYwTy04T3RBazM4Wl9JUDJYVklXc1BmWlFiR2ppT2pybkJKQnhxT3lrSWUwbEpsQXJmaXlmWGxkUUNjN181aWlLZS1kTGJLSk9JVUdjeU9TLTAwYjYyYVNuYjVfUVZVNGlwOW1xanlOTG93OG5rVTJzRHFoOHFUUGlCSUJGOUJBNWZRTVhQdkFQX3BtWmlWYl9rYVRaMjlMLTFyVS1QLXBLc3o1dlhMRjFwNXptUHRtWlBhZXc?oc=5",
+      "medio": "FM Del Sol Pehuajo",
+      "fecha": "2026-11-03T03:00+00:00",
       "tema": "Consulado"
     },
     {
-      "titulo": "Atrayentes y variadas propuestas en el Círculo Italiano de Buenos Aires",
-      "enlace": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcVRRSzh2bnktUGFkbGZwcVB1MUNIMVU5QlVLMTZkcF9EZ2ExaEczb05MMjNIa1RvMDBoX1U3amxQRzRybFhHaml1REJlQi1NYWwtd2c2T1pDQi0xT1h0TUE2bnVkMFdSRnFDVnp5V1VmMU5YVDlGMjNuT0JEbWs1RDAxVjJ3a2htQmtmakxSaUFqQUF4aDVGeURwTWI0UV92WlFBaUtLODdrRE9UV04waDIwR3RiWk9PdnFnS3BjZTY2MkZwUlk1cEQwU3ZfM3AzRExGZFN4WVR4RURCWWVUdFRNR2dQYjRPdWtqRTd5VUxnMEk5dnQwbUhVclVEZUFoRGV1V3h1YU9BbU9YOGVoUkxNbllrUi1SQi1rZ9IBnAJBVV95cUxOcVRRSzh2bnktUGFkbGZwcVB1MUNIMVU5QlVLMTZkcF9EZ2ExaEczb05MMjNIa1RvMDBoX1U3amxQRzRybFhHaml1REJlQi1NYWwtd2c2T1pDQi0xT1h0TUE2bnVkMFdSRnFDVnp5V1VmMU5YVDlGMjNuT0JEbWs1RDAxVjJ3a2htQmtmakxSaUFqQUF4aDVGeURwTWI0UV92WlFBaUtLODdrRE9UV04waDIwR3RiWk9PdnFnS3BjZTY2MkZwUlk1cEQwU3ZfM3AzRExGZFN4WVR4RURCWWVUdFRNR2dQYjRPdWtqRTd5VUxnMEk5dnQwbUhVclVEZUFoRGV1V3h1YU9BbU9YOGVoUkxNbllrUi1SQi1rZw?oc=5",
-      "medio": "ANSA Latina",
-      "fecha": "2026-11-02T13:32+00:00",
+      "titulo": "CUATRO TIEMPOS | Buonarroti: tradición italiana con acento mexicano",
+      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcUFyY3dqNjUwS1RKY09uYnpDMFNZSTFzZ1ZSUTZhMWNYRTduVFE5eXp0QTRSNmVzRFRKemZnVDAxOXBBQW5nU01XVFE3UC1ZT1M1TlJ6VU5jWEFRZnVTaE5kdHRDeGNaMXM1aExHV0tNWkhjSXM5MUVqRk1xMzlpZjE1bnpZSm9WcC0xSVJSNDJIbzI2dUlj?oc=5",
+      "medio": "Pulso Diario San Luis",
+      "fecha": "2026-11-02T21:38+00:00",
       "tema": "Cultura"
     },
     {
@@ -38,11 +31,18 @@ window.NOTICIAS = {
       "tema": "Italia y Argentina"
     },
     {
-      "titulo": "El alcalde Mamdani homenajea a inmigrantes italianos en Nueva York en evento del 28 de octubre.",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc2hxek1WYVZCRDJDQmZySE1JdE1iVnVzV0t4b214UlA1ZDloQkMteDZpa0R0bHBIM3lfbExhMjE2d1RrTGlkeVZobEFqamE5WlFyWUZDOUpiS1Y0Mnl3cGhrNFNKMWhDbURTM21FU0tZcHUycEpoc19ucWFMc3ZQNnV6cTZQZlhQdDlvSXd3Qng3UXZJY18w?oc=5",
-      "medio": "El Congresista",
-      "fecha": "2026-11-01T15:34+00:00",
-      "tema": "Comunidad"
+      "titulo": "River se aseguró la Sudamericana: ¿qué chance tiene de Libertadores?",
+      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONXQ4dnJMVDJwaXZoeXl2OThhUENCUVhoVE5UcUVUamROZ3djVm9EYkdtT0laYmlOd3poNEVqLWtSVTlpZ3FnQXVjWHlVLW9LWnZTVHVFTkRHdlJ0TmVSNnhrMko3a1Y4dXFBT01hcFRGUktQZktSSnE1eFNDVGk4eTdTZ250cElLQnRiaWo2TlBqeVQ3RUE3SHpHQXVrQ1o5MHlwNklVYXNGRlJqTFFMbjJuLWJlemwwX0NhcQ?oc=5",
+      "medio": "FM Del Sol Pehuajo",
+      "fecha": "2026-11-03T02:00+00:00",
+      "tema": "Consulado"
+    },
+    {
+      "titulo": "Cine y gastronomía abren la Semana de la Cocina Italiana en Santiago",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQmpvWkNMa1NxenZXcHUxOWxTQnMzYzE3d2hLaE9RNi1WYk1UbElGZHRkOHpPcC0xcWtrTHdMMXNPUnZTeDhxQzFtUFFkVTR1Z0JlRkJpaUp1T0ZGQ3owSXBhMnBQUDNyR0F1TVh0azhkcld4eVRkRTJEakpUU1VJS3pxeHUyS2lSbmxlZGk2ZjcxVEFFSGdud3ZKVHRoYU9hMUl0azVjM3I?oc=5",
+      "medio": "El Periodista",
+      "fecha": "2026-11-02T20:49+00:00",
+      "tema": "Cultura"
     }
   ]
 };
