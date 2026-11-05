@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-04T02:23+00:00",
+  "actualizado": "2026-11-05T02:30+00:00",
   "items": [
     {
       "titulo": "Inauguración de la muestra colectiva “Insieme: El arte que nos une con Italia”",
@@ -10,24 +10,24 @@ window.NOTICIAS = {
       "tema": "Comunidad"
     },
     {
-      "titulo": "Las cinco bajas que tendrá River ante Aldosivi y los cambios que evalúa Ponzio",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdzFiWlFxWGxDcFNtdnZocEFpOGRjSlM2UGhfSzJ2WldfUGhnUjB1bk5walh3OVplRHZOTGlfTVZMNVpOMFgySmlGU19jdTVVd1JlSU5VaDgzeUcxak5sVmZIVnhOa3NfYjJaaFJYcm9uclpVNmgtWm4wREhKeE4yVHpEZjl4SUJxbXVLZmlzaTBscGhsWTMtQkt2cGllcG40TDhmU1JWbnN4b09HVmpiSGZ2cUh6YWZ6Y2hZMG9VRzk4d2hudEV1M1ROMWY0Zw?oc=5",
-      "medio": "FM Del Sol Pehuajo",
-      "fecha": "2026-11-03T17:02+00:00",
+      "titulo": "La Comisión Europea analiza el límite del 30 % para los alumnos sin ciudadanía italiana, introducido por el Gobierno dirigido por Giorgia Meloni",
+      "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM3pEVFpFVTY5R05sVThtVko2TTZiR19EOU5OX0Z0dkxZOXRHbUlUdWNHU1JjM191cEhxT3BTNFppVGdDbUFFRjRqeEpHNE81TUJZcFdEZFRWNUpUTm9QTF94cGVqdkN6ckVmSzVuS3BoVUZ4UG0tdEZVUzZ5X3o2dnlwWEVBd2w1dy1TQzRSVnlVUWs0NnBWTXhVRndHTXkxQmw4QjY2SWQ5TDB0YWkxWTFB?oc=5",
+      "medio": "Informat.ro",
+      "fecha": "2026-11-04T17:27+00:00",
       "tema": "Consulado"
     },
     {
-      "titulo": "Coronel Suárez celebra la Semana de la Cocina Italiana en el Mundo",
-      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbEUwZVRYZmVjMmt1SE1EVWt6VktaajdNTHVTYWxKeEM3VENONWxoSWVVdnl4WVlXWkZST2JOMnN6NkM1Q3kxVlZSWTRneWVqRWh4dlBnWlBjRmN1Q3lLaVBVbnVKWUJQYWZLd3VOYVFwOUZCQjA2SWNoV1NkTFk0OE1kbmlXekZDYkdNXzRiRWhiZDQ1c0tqQXd5U2w3UFJ4OXFVMy1HWEhYRWlUMDFPb0RNRFNMRTdIWTBBU3Y0WmRtcEc0VEVwNw?oc=5",
-      "medio": "La Nueva Radio Suárez",
-      "fecha": "2026-11-04T00:02+00:00",
+      "titulo": "Muere a los 93 años Tinto Brass, referente del cine italiano",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbUh6azZ3WFpCTHFvZEdMMHhDNDBEQTR1RUk4U3I3bG5uRGNEZ0s5YnRXUmJiV2Rtak1ySy1BeWpRUlItcExueHUwRzNFbjRFQVJ0eXZmOEdsU0xHTHRBNzVsc2Jvc0o1OWRNMk5lajh6N0hkUUdJMXZlS29KZUN2MENPcldWbzB0M1FuQ3BoaEVQZWM1NUdCYTM1b2VaQ0VSb1E?oc=5",
+      "medio": "Diario La Libertad",
+      "fecha": "2026-11-05T01:17+00:00",
       "tema": "Cultura"
     },
     {
-      "titulo": "Música, teatro y danza en la agenda de junio del Teatro 3 de Febrero",
-      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWU3ZXFiMmNxWTBtVmN6aHRnVF9NM1prUHBlRnNoWnNsRGpRSXA2dFZvbUxMMVFuc3JORjhuRVRDbE5xZU0xM0JRTUgtZW1VZy0wMlhuVHRETTBqaFFpcE1pN0NuemdHRG9WUUc5bVlVQUM0SU0xT2ZHZnk5aERMdHBzLVVtclhRNG9Ed0pKbW1Tbk5fSWlUZ3NMLXpOSXZDLWVTUg?oc=5",
-      "medio": "Municipalidad de Paraná",
-      "fecha": "2026-11-02T12:03+00:00",
+      "titulo": "Tres días de arte y cultura con actividades gratuitas en el departamento San Martín",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcExBMS0wRC04dk5nOEVjRHVSWHhpNmRpYnpjX0lkYlRtMUNqS3hiclRMeVBoNFBpbGFkQmlmaUxCenF1ZFZ4aXQxX3lUZnVqbnBZZEtHc2RNNlJqakt3N21WRGZObktJa2JaZDlTSlo2Q0V2NEg2cUlrTGhkUFVmQ25WMGJQN0FfUHVLcnF5VWpsZUdPTExINGN0RDY1SVdvZ1BzV0V4NHRDbHNvOWk2WmkydXFmWmdJMUxyWVlJMFJaWFExVjM4N2Jsd9IBywFBVV95cUxOcExBMS0wRC04dk5nOEVjRHVSWHhpNmRpYnpjX0lkYlRtMUNqS3hiclRMeVBoNFBpbGFkQmlmaUxCenF1ZFZ4aXQxX3lUZnVqbnBZZEtHc2RNNlJqakt3N21WRGZObktJa2JaZDlTSlo2Q0V2NEg2cUlrTGhkUFVmQ25WMGJQN0FfUHVLcnF5VWpsZUdPTExINGN0RDY1SVdvZ1BzV0V4NHRDbHNvOWk2WmkydXFmWmdJMUxyWVlJMFJaWFExVjM4N2Jsdw?oc=5",
+      "medio": "La Capital",
+      "fecha": "2026-11-03T18:40+00:00",
       "tema": "Patrimonio"
     },
     {
