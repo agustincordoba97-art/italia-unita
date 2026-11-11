@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-10T17:54+00:00",
+  "actualizado": "2026-11-11T01:57+00:00",
   "items": [
     {
       "titulo": "Comites 2026: la disputa entre listas llega al perfil de los 150 años de la inmigración italiana en SC",
@@ -17,10 +17,10 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "Uruguay celebra la cocina italiana con dos semanas de sabores, tradición y grandes referentes",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdDlSanNqM3hNM2hac0YzNGZUNGgyY0xxM3NGdXF0blZCTW5BOGhENVlyaVI1Ni1tTzBGc09vZ1lTdGVuT3RzMk16M1gtV1JHMEc3Z0JlaVY5OTl0aUFkcm9oWFVZYW9FeXZJdGhWckNjekw5VW9NdUtFY0ZZX3Y5ckROcjFzeW9ELTQ1OVN4dEVxdVpHTGR1WWYzQTVyRGhnX1FJZXVsNFZTOWwyVW5Vci1fTDVDWDVsOWFsa1Y2TkZZMkRp?oc=5",
-      "medio": "Portada Punta",
-      "fecha": "2026-11-10T16:35+00:00",
+      "titulo": "La trufa conquista la cocina italiana: la propuesta de Piegari Ristorante en Buenos Aires",
+      "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNlo1ODQwbnlWMnlRQzdITUNMNk9EcUc1RDFMY3R2ZXlNeXYxQ0dQYW1SSjNGUGxlY0RCd1VyWHYwMlFwaTgzUm82RE53V2ZuZWhBTTJjQ2QxMTZiaHdUTnV0MF80ek9WZUNtVDNaa0RKdDV2NkttZTNLMEtIVnhjSHp3YmRSOHRDWDRGNlZUZ2llV0xfeGhlYXl6QkI0cHpjaVpySldSdTdoTVVWMGJibHZhV2NkSkRLdHNsZG5iWTVvcmt6eUlCal9TNDhlZHV3UVHSAewBQVVfeXFMT3FGV2t6N2VlVHRKdFZvSkRGUk9qbTd3OGFzTDNIeEQ1TlRLLUNMSXBlLW5aOXdrUU1mYVJDNHNUUlJOMVhWSlNMRzR2bDVseTZkRjBvc083WnRxbGc0d2JwSlV4V1Ywc2I3bkRoQmFHSXFySHpOQmhzQWZtTmJWUVpBUTNsOU9CMUxpcHZPUktSVU83VTI3RjhoOEl6R2JSRGl5T2xwSzJhRm4yMXlvak5OZFZMUmREcXZZMnh1VXNmdE5zYk9MZTB0QkdOSmlKUUpsdmx4cjRucUktVUVLbnZjNFpNZE96X0lEWVI?oc=5",
+      "medio": "El Cronista",
+      "fecha": "2026-11-11T00:51+00:00",
       "tema": "Cultura"
     },
     {
