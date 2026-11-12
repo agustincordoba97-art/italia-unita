@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-12T03:04+00:00",
+  "actualizado": "2026-11-12T18:22+00:00",
   "items": [
     {
       "titulo": "Comites 2026: la disputa entre listas llega al perfil de los 150 años de la inmigración italiana en SC",
@@ -17,17 +17,17 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "El Parque Belgrano será sede de la Semana de la Cocina Italiana",
-      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRmZkVVBWQ05fRHh5STBZQWp4ZlJ6N0s3dVVDUks1WGVZQ25iMGJmTkxXMVc1ZVktUS1Ib1A2aVFJVTc0c2tDVFlqbDlqRGNNR0d2amZCR3VaT3Q4RS1zM205MnctRHVsOG1ONkxNQTdZRldWWTNUcUU0QlE4Q2VtSDUydUI3Q3ZRVllwUUtpNEszQWtNTk15SmdJRkp2VF9DSmpNOWZXcUtJN1Z2aWxsT1NRdzg2NVNRdEtoN0k3bkZCTTM0SEowaURR?oc=5",
-      "medio": "Flipr.news",
-      "fecha": "2026-11-11T14:11+00:00",
+      "titulo": "SABORES Y TRADICIÓN: ESTE DOMINGO SE REALIZARÁ LA SEMANA DE LA COCINA ITALIANA EN EL PARQUE BELGRANO",
+      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1faUtqaDdjN0VHTlVSMzBxREl1d21VUXR2NGlxNUN3ek5xSFlRME9HWnJBTE1odVRPVWFNd1RqbzVubTBSRkIxVmczV042SVJEYm1SeDk0ZzhnblJCLW5z?oc=5",
+      "medio": "Pergamino Verdad",
+      "fecha": "2026-11-12T15:40+00:00",
       "tema": "Cultura"
     },
     {
-      "titulo": "Estudiantes de la tecnicatura superior en Bibliotecología crearon la biblioteca de la Sociedad Italiana Porta Pía",
-      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQzlWM2Q5Snd1bENFcVVLQnZwRDFPUUFkS3VsSTF5Mk1iVWV5ZWhSbFV6T251anJ4ZFRpb3lpckNLdHZIYXlXbVczMVFIU1JUZWVfX2Q2VGpNT2hFaHVPc0JXcU9kZFVRMkkxd0FyaVVvTUNjYzR0MHhmclM4MnVhSERSNGZhZ1BoRXZrcENaNG00Q3NGaUZJcmZ2LXhPQkVqXzJUb25TZEhCblpHbnVCNVZDdmF0ME9DN1l3OWF5UTNTN0ZTeF85YTBXT184dDJkWHBkS0JaSVJzNzV3cjNYNk1n?oc=5",
-      "medio": "La Posta del Noroeste",
-      "fecha": "2026-11-09T23:41+00:00",
+      "titulo": "Puesta en valor de la Sociedad Italiana",
+      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTjByVllzREpLcjJzeVF3d0lLX1lHUlRKZUxRbVVBOHJ3aGJxNDNxWmYtZEs3SThnb01pbUNmZ1A5NWYyU3YwdU9FMUU3bVlSME9COFFNUHJGZi1xMEVrUGVuVndYanNOWnA2NmZXTGpKQmVnQVZPM1JqS3lvSU1CZ2JpczB2RE42Nkh3ZE9EaGxyc2FLTng4dEMwb0QyMENXc0Z2LVpMMA?oc=5",
+      "medio": "El Diario del centro del país",
+      "fecha": "2026-11-12T11:30+00:00",
       "tema": "Patrimonio"
     },
     {
