@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-11T17:54+00:00",
+  "actualizado": "2026-11-12T03:04+00:00",
   "items": [
     {
       "titulo": "Comites 2026: la disputa entre listas llega al perfil de los 150 años de la inmigración italiana en SC",
@@ -31,10 +31,10 @@ window.NOTICIAS = {
       "tema": "Patrimonio"
     },
     {
-      "titulo": "La presidenta Claudia Sheinbaum muestra respuesta de embajador Genaro Lozano sobre supuesta fiesta en Italia",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNzFUaVloNjRrWk9xRGd5UW1fMlh0VE01Tm94Z0xBNmR2S3ZBenVpTjhGaHBKSnZjQXlCVXhKSlY5V3hNeEtWUU5ESzlOYm93dV92dkNUbjctTlBYY3QydFpRNUhLVlM4cXAxa2s2RWQ0alpTd1JJOUN1QTIyX3dlNWw4N0ZKdXdheXJZNFplOWE2TXFPU2M0?oc=5",
-      "medio": "El Congresista",
-      "fecha": "2026-11-03T19:04+00:00",
+      "titulo": "¿Quién se quedará con Nicolò Tresoldi?: Alemania, Italia y Argentina se lo disputan",
+      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeEQ2Y1dCU3pkWjdCSHRSMzZpczVodUZnUlpiQklRUVloT2N4TXd0Y1VQeGlZSF9QSU92OUxxbkJIS1JSTzNzTjF6b3dFRzk2YUxCMmU1eFVMa1NDUE8xeDEtbGMyZU9ER0JCeVJ6S3dYVGtlVnUyMXNubV9CU2lyM1dpcEg3Njh1dUNOeEIxa0lwX09IejVoejU2OWEwd2JPd2dIcW9pajJGUGVmRTFtaEJLeG9iY0RmdFBnTGxhbWVMWGhqWGRVUTIwWXVtQQ?oc=5",
+      "medio": "Transfermarkt",
+      "fecha": "2026-11-11T17:00+00:00",
       "tema": "Italia y Argentina"
     },
     {
