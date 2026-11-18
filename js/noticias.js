@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-17T19:12+00:00",
+  "actualizado": "2026-11-18T03:43+00:00",
   "items": [
     {
       "titulo": "Avellaneda revalorizó el Paseo de las Raíces en homenaje a sus inmigrantes italianos",
@@ -17,10 +17,10 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "La Semana de la Cocina Italiana llega a su undécima edición con una agenda de experiencias gastronómicas",
-      "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNME85MkU0N3FvOVhnZm9VUWpOMllnWXcycEQzcnNRT2diQmxQQy1QS3poeEI2VEMxOHJNT0VPYWJxel9IenJKZE1KcWZNYm9JOW02M2g4S2JhdEdhN0NkTjB4V2tveVJYR05fYW8wMnVIa29PYXFNLTRoUjYxV0Fja2pFRllzdGVqQ0pmOS1lSjBVcXhqOFF0UEhyOWl6SVY2Rm1VbmJZMHNuTnFXbTVLVHl0aTktM3dYa1k1VHRiMk91bk8xcWJ3QmQ4RmFkeWtm?oc=5",
-      "medio": "ADN Paraguayo",
-      "fecha": "2026-11-17T17:41+00:00",
+      "titulo": "SABORES Y TRADICIÓN: ESTE DOMINGO SE REALIZARÁ LA SEMANA DE LA COCINA ITALIANA EN EL PARQUE BELGRANO",
+      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1faUtqaDdjN0VHTlVSMzBxREl1d21VUXR2NGlxNUN3ek5xSFlRME9HWnJBTE1odVRPVWFNd1RqbzVubTBSRkIxVmczV042SVJEYm1SeDk0ZzhnblJCLW5z?oc=5",
+      "medio": "Pergamino Verdad",
+      "fecha": "2026-11-18T02:24+00:00",
       "tema": "Cultura"
     },
     {
@@ -31,10 +31,10 @@ window.NOTICIAS = {
       "tema": "Patrimonio"
     },
     {
-      "titulo": "Roldán: reúne 85 familiares en un cumpleaños con emotivo asado",
-      "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qWEc0TGlQbE1vdDdoMDAtVzJiU2lkZURrMVY5RVAwclBtRXlYQkNDa2txVkZ4Ym1kb0JDcGxjcW4tZ09oMmtSdXB6Ykw4ZDltaTNsSF8yUThMSWlmTjBMUTYyUWx5Zm9wVTJmdlg0RGRBNERYWHdTY0NZYw?oc=5",
-      "medio": "El Congresista",
-      "fecha": "2026-11-14T13:44+00:00",
+      "titulo": "Tucumán y la Embajada de Italia avanzan en una agenda de cooperación industrial",
+      "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObUdiVW1sSXVoM0RGWkQwUHpoV1VSRk4tMVR2c3pTTmZCRUEzbm9rTWh1cVpDbmhMdlRpd0s5M1Y2anRSbEtlSkVaZ1hUZTNVWUJPXzh0S3ZZTmZmdGtoWEpPcWt6V2xkdTlld0w3WUdpb29XMEt6RUFGR3pBbVdud0V3aHdVR04xN253WkpUN0JGQkpuYTRGdG1JV0N1MWwxZWhWT0pVaHJXM2J0VW9uM0ZFSTFjWVYtdFdZdzBjd2l3dXhjNm80NDlhOHlFeU16?oc=5",
+      "medio": "Comunicación Tucumán",
+      "fecha": "2026-11-17T20:18+00:00",
       "tema": "Italia y Argentina"
     },
     {
