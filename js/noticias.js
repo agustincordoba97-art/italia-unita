@@ -1,12 +1,12 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-20T18:37+00:00",
+  "actualizado": "2026-11-21T03:15+00:00",
   "items": [
     {
-      "titulo": "Tras 78 años de historia ponen a la venta la tradicional Cerámica Artística Los Andes",
-      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWnNTMV9mck1XNnl4ci1FQ1RNRldTeU1OV0JScGFHWElJa3BOUWpNRllfRnVnTTkyNHgydENrNkZfLTNxODBIbzhDdkhQNTRHaS15aW5kVlpoNEFRU2lIVGcwUUdMSENSRXUwX1FtSTh2M2MxdFZBYy1oRXdLRGZTQjZ1dGhoT284S2hnMWlPX2pVU0gtSm9KTHQ5SnVXS2w4ckE4WTFTTXlWM0NXaWVOcndfUThxVW1aeVNUZmxOU1ZCVXA4YkFoVl9n?oc=5",
-      "medio": "El Dínamo",
-      "fecha": "2026-11-20T01:36+00:00",
+      "titulo": "¡Atención, italianos!: Margarita Bussolon representará a Resistencia en la lista del MAIE para los COM.IT.ES. 2026",
+      "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeHpjaDRENHhyOHBNeXBYUFNPbnJHMXA1ZENFOExmNDZBQUMxbmZSNUR2SDdoelFidTlualhZYjZvX3dlSkNXc2N6UG5MbXdDczBCMXc1MnZHNU8tdEJ3YjRSbGFyWXFWZWhOcnFvbEM3cFZ6ajJVUmFKdXNZVDZBbHVVTHlrWVlPd3NqQlZMYzlndjlva20xVVhuVTc3NE9rY0lPTjNvSTZQd25zcWt3c1Q4OFFZeWF3UHJyeGtMVEFaOEZOS0tzTGw1WlBWUWhqak5GX2dBM2pQR2pLUHNvUC0wRnJzQjJEa1lJ?oc=5",
+      "medio": "Chaco Ahora",
+      "fecha": "2026-11-20T23:31+00:00",
       "tema": "Comunidad"
     },
     {
@@ -17,10 +17,10 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "La cocina italiana toma un giro argentino en Lucia Pizzeria",
-      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNanVlUHBrdzUxYXROMkhicmc5MzJ2SHB0eHJ0bDJtNDV5a25lTXVZMzV2T21pd1ZSeUJEd3dlUVh1TGlvYXdLVFg0X19HNkJrdWdtem43eGsxNlpMcTNqSEZBN21OWndYUzdxdFRtVTNEZ2EyNUZmZUJJUGxvWEdEWFdqTDJVZ0E5Y2s0Ym5namYwWjU5QXhGMVE1RHNWV1lYU1pzU1F2LWJMbmRaTVp0RzJqLU5EUDFZRkHSAcIBQVVfeXFMUFpJYU5WVlJZWDY5YzhmNTYzWXl4SVBjd1hEU0MzR0ZGYmI1SmYyY2VZNHlCY2NkSTNfMHRNWWNOWWlYNnc1elhtaFFWQTRHUEl3cVdLa0I3WG9PVUxFRkF5WEc2bkpmZHVyalB1alE2amJBZ2Q2Y2loNlNPSUJhRmVYU2pESnpBcmVvc2RMVi1JQUFpeFhOVG96U0wwRUFUNVRCd3JHV3N4ZGlpWTZneTMzRE9vRndPS0I0Wmw1OE1laHc?oc=5",
-      "medio": "Telemundo Miami",
-      "fecha": "2026-11-20T17:08+00:00",
+      "titulo": "Ostería Condal (Barcelona): una cocina italiana y catalana",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZEt3eFVURldiYklyZ2ZkRmdTeGcxOW1icF9fTHRDRVFjc0NqZ3RwQmEzaUNpNjhkTHU3QTF5Y2JXaE5KR3E5aDZ5VVdIZTBHdHJxclgyR28wMktsSk9Kd1VrWmFjT2FCLTVOMGtHd0g5c0RwNG00azlzSkw5UnpnSjlJT1JuWjVhaHV0a2oxYjFOZXpoeVhhU3BtZ1BoMUx5M2fSAacBQVVfeXFMTVZwUlpmUVl0SkNvaldpbGlTVWNkSnFJRTJfeXJXYkJSTGVzWlo3bkFJTEJJUDhCTG1UeEUtMTJiR0FXMERPRXR2MFRZX2Qwamt2WHAzS3pUUG94QndlRWQxSlFBMWZUbEZ5YUpySjFEaFlud1pQOG5vTzRuWDV3VHp1Y2R0cjYxY2MwZDdhbVMxaktTbjllLTB1b2NJRzh1eVc0bHhuRU0?oc=5",
+      "medio": "Diario Sur",
+      "fecha": "2026-11-20T22:11+00:00",
       "tema": "Cultura"
     },
     {
@@ -38,10 +38,10 @@ window.NOTICIAS = {
       "tema": "Italia y Argentina"
     },
     {
-      "titulo": "COMITES 2026: una lista se suma a la disputa por la representación italiana en Buenos Aires",
-      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNDVJVjhNTU9SM3RlM0daZkh3eG5ud2JEbFNEOGF3Y0Nwa19uNGF1TzVuUzdRTm9ReW5BT19xSXBCaFAwVjdzUHJGeUFIYk4wWmJJTG9pVWUtY05LT0FXQ0ppOFJPUmxuOEdSMkJiNktkZ2FSY1hNTlF4XzUxbEowSHQ0eHlIbEVvMlFfajFpS1dRYWhlVWZNUjd5aG8zenRvOFdtbXhoOHl5QmYxM013aWRGcjZZWUZOSVUwSdIBvAFBVV95cUxNNDVJVjhNTU9SM3RlM0daZkh3eG5ud2JEbFNEOGF3Y0Nwa19uNGF1TzVuUzdRTm9ReW5BT19xSXBCaFAwVjdzUHJGeUFIYk4wWmJJTG9pVWUtY05LT0FXQ0ppOFJPUmxuOEdSMkJiNktkZ2FSY1hNTlF4XzUxbEowSHQ0eHlIbEVvMlFfajFpS1dRYWhlVWZNUjd5aG8zenRvOFdtbXhoOHl5QmYxM013aWRGcjZZWUZOSVUwSQ?oc=5",
-      "medio": "Agencia DIB",
-      "fecha": "2026-11-19T20:41+00:00",
+      "titulo": "“La colectividad italiana atraviesa su peor momento”: la advertencia de un candidato al COMITES en Mendoza",
+      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXkteFpCZDdDcTAzT3Y4ZlpGNy1mQ3B5U3R5Qk1LT2pLa0FWRElPTmw5dE96Z0kxN2huYU12a0ltM04tUjIxbE5ZaURwMURjdDZQN283V1R0c3NTS3kyWXc4ZGZ6M2xCYkEzcDUxbG5XRnNBRTdtRjlHNU1LNjY4ZHhJQzFrbjFGLUZINi1YRm5jZjVablhtdDQtemRncHZtZUhRdDctVGU2cV9nWktHWDVmNUhLSzdoU2VuVURn?oc=5",
+      "medio": "617 News",
+      "fecha": "2026-11-20T20:04+00:00",
       "tema": "Comunidad"
     }
   ]
