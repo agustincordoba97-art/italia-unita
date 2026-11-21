@@ -1,12 +1,12 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-21T03:15+00:00",
+  "actualizado": "2026-11-21T17:36+00:00",
   "items": [
     {
-      "titulo": "¡Atención, italianos!: Margarita Bussolon representará a Resistencia en la lista del MAIE para los COM.IT.ES. 2026",
-      "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeHpjaDRENHhyOHBNeXBYUFNPbnJHMXA1ZENFOExmNDZBQUMxbmZSNUR2SDdoelFidTlualhZYjZvX3dlSkNXc2N6UG5MbXdDczBCMXc1MnZHNU8tdEJ3YjRSbGFyWXFWZWhOcnFvbEM3cFZ6ajJVUmFKdXNZVDZBbHVVTHlrWVlPd3NqQlZMYzlndjlva20xVVhuVTc3NE9rY0lPTjNvSTZQd25zcWt3c1Q4OFFZeWF3UHJyeGtMVEFaOEZOS0tzTGw1WlBWUWhqak5GX2dBM2pQR2pLUHNvUC0wRnJzQjJEa1lJ?oc=5",
-      "medio": "Chaco Ahora",
-      "fecha": "2026-11-20T23:31+00:00",
+      "titulo": "Reflexión sobre la inmigración italiana y el legado piamontés en el departamento de Colonia",
+      "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcVV6ZnpqakVUMWVQclk5TVF2QVE4WEZrVTBwS2FMbEJUZURRMUYxMTdORWpvTTBmSUs4Rm9XQW9IUnNVWlJ6UjhMVW5rVkZpQU40OEpUT2djMDVURXVBU3JYalVicXVOMWQ2RC1jTU1Bem1ISE9rOUZfY1gtNFJRaFFibFpmV203SmtxRnNMUjd6RFBZWjVwRk9zSXFOU083SXVHbUJHZ1JUWGdaMkVOY3lwMk1QeXhJY3ZGLTZiY0NuenVCemc?oc=5",
+      "medio": "helvecia.com.uy",
+      "fecha": "2026-11-21T14:33+00:00",
       "tema": "Comunidad"
     },
     {
@@ -17,17 +17,17 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "Ostería Condal (Barcelona): una cocina italiana y catalana",
-      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZEt3eFVURldiYklyZ2ZkRmdTeGcxOW1icF9fTHRDRVFjc0NqZ3RwQmEzaUNpNjhkTHU3QTF5Y2JXaE5KR3E5aDZ5VVdIZTBHdHJxclgyR28wMktsSk9Kd1VrWmFjT2FCLTVOMGtHd0g5c0RwNG00azlzSkw5UnpnSjlJT1JuWjVhaHV0a2oxYjFOZXpoeVhhU3BtZ1BoMUx5M2fSAacBQVVfeXFMTVZwUlpmUVl0SkNvaldpbGlTVWNkSnFJRTJfeXJXYkJSTGVzWlo3bkFJTEJJUDhCTG1UeEUtMTJiR0FXMERPRXR2MFRZX2Qwamt2WHAzS3pUUG94QndlRWQxSlFBMWZUbEZ5YUpySjFEaFlud1pQOG5vTzRuWDV3VHp1Y2R0cjYxY2MwZDdhbVMxaktTbjllLTB1b2NJRzh1eVc0bHhuRU0?oc=5",
-      "medio": "Diario Sur",
-      "fecha": "2026-11-20T22:11+00:00",
+      "titulo": "El cine italiano toma las pantallas de la FIL 40",
+      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT2poS1gxVTRSUzgyMXJpcmRpbDhkRDRIMVZ2NzBhTnBiazNVTUl0NWlMUDRkamlxVl80eVRKOTkyVExuUVR5RE1qMndUblI5OHp1X3N6T1Z3M0M5WllCMG1uVlYxa2FLVGFQLUFEakpHNE12dVN5eE1TbGdsNlNla3lVYnV6NUNPbzR3eThuRQ?oc=5",
+      "medio": "MURAL | Periodismo independiente",
+      "fecha": "2026-11-21T11:04+00:00",
       "tema": "Cultura"
     },
     {
-      "titulo": "La Sociedad Italiana propone un nuevo encuentro de “Cucina con noi”",
-      "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRk1jNzJ5b1dMQzRyNFZqN25rNTgxVGszWi1iR0ZVTDJseloxN3l3ZzBYbHFZYkxJc01IZFE5SFlURkw3bG1BRnFwLUhxRlIxTUEybHJDdG5NS0RrNFk2Ti1ZV2xQY3JjYmh4Y2VYdVVVOXpJV1FheXJNNTBQODl0bkdqU0lfY0tJSll4ZlFUYVlubC1zOFI1Rg?oc=5",
-      "medio": "Diario 3",
-      "fecha": "2026-11-20T13:43+00:00",
+      "titulo": "El teatro municipal de Tres Lomas cerrará el año con dos funciones",
+      "enlace": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Nd3pIZkFxdUlHTkxmXzdKRWp6VWR4UkhBVHRPek9CeVJKQnZNcGl6SDNURG02VktLek1qVl9mdno1STJWUXlFa3NhRi1YQlVTZEhj?oc=5",
+      "medio": "Veradia.com",
+      "fecha": "2026-11-21T10:16+00:00",
       "tema": "Patrimonio"
     },
     {
@@ -38,10 +38,10 @@ window.NOTICIAS = {
       "tema": "Italia y Argentina"
     },
     {
-      "titulo": "“La colectividad italiana atraviesa su peor momento”: la advertencia de un candidato al COMITES en Mendoza",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXkteFpCZDdDcTAzT3Y4ZlpGNy1mQ3B5U3R5Qk1LT2pLa0FWRElPTmw5dE96Z0kxN2huYU12a0ltM04tUjIxbE5ZaURwMURjdDZQN283V1R0c3NTS3kyWXc4ZGZ6M2xCYkEzcDUxbG5XRnNBRTdtRjlHNU1LNjY4ZHhJQzFrbjFGLUZINi1YRm5jZjVablhtdDQtemRncHZtZUhRdDctVGU2cV9nWktHWDVmNUhLSzdoU2VuVURn?oc=5",
-      "medio": "617 News",
-      "fecha": "2026-11-20T20:04+00:00",
+      "titulo": "La historia del dulce creado por inmigrantes italianos en Venezuela en los años 70 que hoy tiene en España el 20% de su negocio internacional",
+      "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQOVBDNWFrcGJNMjQ0OFlUVHBjMlB3dXdfTHNwMFptbHEyVnJaVElHQTRwMU5PeUlqYzlaMkl4RFFGeXIwQkpuczBzaWRmUXdUVUlVbVhFUjByT2JTR3JlblgwQ1AySV8yMmJDbGE3eHpBQ3NOTjcteVdtTUU5cmZQajBQX0pTWmZDcG9FTnBUY2FlWC1kNUNYXzJKYlItNzZGQ1JYd2tRa2Y5UnhSc1VIRy1aczJyZTdwNU1udk42MlRXemp0T19xQ3ZQX1FFcXNZQ2l5U1R5YVhjQ0gta2ZlUHViRUFTYnJLbmtNNkhLSjlDZ3RrY3dCdF80RnJVczByYzktS1E4bTZHMjhrX0lj0gGUAkFVX3lxTE42dDBHWnpzSGVlY0UyVTBEY1NGdDUxTW01YmtRcElxUWV4SXJNcFBQbWFraXdWUGh3NzdTdXJCN0RQclNnRVNqMjVPWDZhbXFGanFacXF1eklHVjF3bUk4dkh4aXJWUW10U0E5a0NWb3JVTjh0N3BYQVZVZlo2UmlWMUtBZEpWMVRxRTd5ZmF5THJSX1lOek1ZYlJKS1FmYXl4VHRhbEk2TndIM1FSUFItRFhqYjl6bWJXRTgzU3dCaE1OMTF2S2IwUFZGSTVwY1FVU2FxNUFlbW9ZaVNGNUNyWklMTDRaaDlYaUJVYVcwVzBkMS1CZ3FvLVhjRkloNUZaTGZPWFBwSVdYRTNBRE5SamxydQ?oc=5",
+      "medio": "Vozpopuli",
+      "fecha": "2026-11-21T07:00+00:00",
       "tema": "Comunidad"
     }
   ]
