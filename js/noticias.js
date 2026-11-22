@@ -1,19 +1,19 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-22T02:16+00:00",
+  "actualizado": "2026-11-22T17:51+00:00",
   "items": [
     {
-      "titulo": "Reflexión sobre la inmigración italiana y el legado piamontés en el departamento de Colonia",
-      "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcVV6ZnpqakVUMWVQclk5TVF2QVE4WEZrVTBwS2FMbEJUZURRMUYxMTdORWpvTTBmSUs4Rm9XQW9IUnNVWlJ6UjhMVW5rVkZpQU40OEpUT2djMDVURXVBU3JYalVicXVOMWQ2RC1jTU1Bem1ISE9rOUZfY1gtNFJRaFFibFpmV203SmtxRnNMUjd6RFBZWjVwRk9zSXFOU083SXVHbUJHZ1JUWGdaMkVOY3lwMk1QeXhJY3ZGLTZiY0NuenVCemc?oc=5",
-      "medio": "Helvecia",
-      "fecha": "2026-11-21T14:33+00:00",
+      "titulo": "Berisso promueve el compostaje entre las colectividades",
+      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVW9oUjI2U0p6cFFjT0FLcjZmeHBiR0tfZmxYdkI1YkExb1ZEYmJiUGVSWEZYN2RfTlJQSkdEMTN6NERrWWdDYklnWGd2NjR4UmlEWWlHX1p4U1A0NUtTeFV6NWVoZzJtTnBmUkNxWWZkMmVjamFPYlNMeWVMVTdybE15ZzBpTlBoS0FPbzZXc3Jpa1VUWHZxM18wNA?oc=5",
+      "medio": "Berisso Ciudad",
+      "fecha": "2026-11-22T14:42+00:00",
       "tema": "Comunidad"
     },
     {
-      "titulo": "Elecciones ante el consulado italiano: qué deben tener en cuenta quienes recibieron el sobre electoral",
-      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUERrVTVZT2U0R0lHZUJ0bnJrU0RhbjhpdFVuN01Pd0JwWnBYaXlDQXJzdTI1emJIcTVNMWhDOVlMcnh6czdzUFQxSzZsZ2FFZG1PbGdLZkw2bGFOb1VuVDFFRWNjUklmQzhkYW5hNEhnTS1NNTV3a3IyQkstbEdaeGg4MGFzSGliLURjQ0NWQ1RndzYyQnJfUjlVRVBfWWpzYTFSbUtqWFNZWlJXMlItVXFNR1JEaXRpa081TFdQcFdwcHUxYVI4VA?oc=5",
-      "medio": "Radio Facundo Quiroga",
-      "fecha": "2026-11-20T10:30+00:00",
+      "titulo": "“La colectividad italiana atraviesa su peor momento”: la advertencia de un candidato al COMITES en Mendoza",
+      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXkteFpCZDdDcTAzT3Y4ZlpGNy1mQ3B5U3R5Qk1LT2pLa0FWRElPTmw5dE96Z0kxN2huYU12a0ltM04tUjIxbE5ZaURwMURjdDZQN283V1R0c3NTS3kyWXc4ZGZ6M2xCYkEzcDUxbG5XRnNBRTdtRjlHNU1LNjY4ZHhJQzFrbjFGLUZINi1YRm5jZjVablhtdDQtemRncHZtZUhRdDctVGU2cV9nWktHWDVmNUhLSzdoU2VuVURn?oc=5",
+      "medio": "617 News",
+      "fecha": "2026-11-20T20:04+00:00",
       "tema": "Consulado"
     },
     {
@@ -38,10 +38,10 @@ window.NOTICIAS = {
       "tema": "Italia y Argentina"
     },
     {
-      "titulo": "La historia del dulce creado por inmigrantes italianos en Venezuela en los años 70 que hoy tiene en España el 20% de su negocio internacional",
-      "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQOVBDNWFrcGJNMjQ0OFlUVHBjMlB3dXdfTHNwMFptbHEyVnJaVElHQTRwMU5PeUlqYzlaMkl4RFFGeXIwQkpuczBzaWRmUXdUVUlVbVhFUjByT2JTR3JlblgwQ1AySV8yMmJDbGE3eHpBQ3NOTjcteVdtTUU5cmZQajBQX0pTWmZDcG9FTnBUY2FlWC1kNUNYXzJKYlItNzZGQ1JYd2tRa2Y5UnhSc1VIRy1aczJyZTdwNU1udk42MlRXemp0T19xQ3ZQX1FFcXNZQ2l5U1R5YVhjQ0gta2ZlUHViRUFTYnJLbmtNNkhLSjlDZ3RrY3dCdF80RnJVczByYzktS1E4bTZHMjhrX0lj0gGUAkFVX3lxTE42dDBHWnpzSGVlY0UyVTBEY1NGdDUxTW01YmtRcElxUWV4SXJNcFBQbWFraXdWUGh3NzdTdXJCN0RQclNnRVNqMjVPWDZhbXFGanFacXF1eklHVjF3bUk4dkh4aXJWUW10U0E5a0NWb3JVTjh0N3BYQVZVZlo2UmlWMUtBZEpWMVRxRTd5ZmF5THJSX1lOek1ZYlJKS1FmYXl4VHRhbEk2TndIM1FSUFItRFhqYjl6bWJXRTgzU3dCaE1OMTF2S2IwUFZGSTVwY1FVU2FxNUFlbW9ZaVNGNUNyWklMTDRaaDlYaUJVYVcwVzBkMS1CZ3FvLVhjRkloNUZaTGZPWFBwSVdYRTNBRE5SamxydQ?oc=5",
-      "medio": "Vozpopuli",
-      "fecha": "2026-11-21T07:00+00:00",
+      "titulo": "Tandil Celebra Italia inició su tercera edición con gran concurrencia",
+      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWGZMVnlVajZOTmZzVFJpaHJzMlBpYWI2d2NjaFBtVldKbmFMYWtyWE9KNkNmSkJGdWJnVkpsV25oTFJQTlpHTmJxVW1MaERVdlpxanlaLTRvdXNuOF9oT0MtU01QQ3NKX2JGaDF4ZDdoV21ZNXZfM2huQlNYMVlyV3VBMEtWOTN0Ym1GbWQ1eE1iZFdhZVBPNEhrSHJJT0d4bERSTGtWQQ?oc=5",
+      "medio": "El Eco",
+      "fecha": "2026-11-22T11:33+00:00",
       "tema": "Comunidad"
     }
   ]
