@@ -1,11 +1,11 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-21T17:36+00:00",
+  "actualizado": "2026-11-22T02:16+00:00",
   "items": [
     {
       "titulo": "Reflexión sobre la inmigración italiana y el legado piamontés en el departamento de Colonia",
       "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcVV6ZnpqakVUMWVQclk5TVF2QVE4WEZrVTBwS2FMbEJUZURRMUYxMTdORWpvTTBmSUs4Rm9XQW9IUnNVWlJ6UjhMVW5rVkZpQU40OEpUT2djMDVURXVBU3JYalVicXVOMWQ2RC1jTU1Bem1ISE9rOUZfY1gtNFJRaFFibFpmV203SmtxRnNMUjd6RFBZWjVwRk9zSXFOU083SXVHbUJHZ1JUWGdaMkVOY3lwMk1QeXhJY3ZGLTZiY0NuenVCemc?oc=5",
-      "medio": "helvecia.com.uy",
+      "medio": "Helvecia",
       "fecha": "2026-11-21T14:33+00:00",
       "tema": "Comunidad"
     },
@@ -18,9 +18,9 @@ window.NOTICIAS = {
     },
     {
       "titulo": "El cine italiano toma las pantallas de la FIL 40",
-      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT2poS1gxVTRSUzgyMXJpcmRpbDhkRDRIMVZ2NzBhTnBiazNVTUl0NWlMUDRkamlxVl80eVRKOTkyVExuUVR5RE1qMndUblI5OHp1X3N6T1Z3M0M5WllCMG1uVlYxa2FLVGFQLUFEakpHNE12dVN5eE1TbGdsNlNla3lVYnV6NUNPbzR3eThuRQ?oc=5",
-      "medio": "MURAL | Periodismo independiente",
-      "fecha": "2026-11-21T11:04+00:00",
+      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNERiYjNlSFBlSTJQaDhhYnVkOGhnSVdfUGRDODdfNkJsNWs1UEFIMGxRUHRwTmRJUGNjeUpnU3VmcEtzY01xVUppU3NiX0Y0dmhldG1McV90aUYyRTB6MTNneWhPa3YycEZJZ19fWmY3azNIX0hXX0VhRGcxWUt1TjFlME12NVZfVTNpX1A0MA?oc=5",
+      "medio": "Plano Informativo",
+      "fecha": "2026-11-21T19:11+00:00",
       "tema": "Cultura"
     },
     {
