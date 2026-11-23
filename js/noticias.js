@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-23T02:50+00:00",
+  "actualizado": "2026-11-23T22:04+00:00",
   "items": [
     {
       "titulo": "Reflexión sobre la inmigración italiana y el legado piamontés en el departamento de Colonia",
@@ -17,10 +17,10 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "El cine italiano toma las pantallas de la FIL 40",
-      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNERiYjNlSFBlSTJQaDhhYnVkOGhnSVdfUGRDODdfNkJsNWs1UEFIMGxRUHRwTmRJUGNjeUpnU3VmcEtzY01xVUppU3NiX0Y0dmhldG1McV90aUYyRTB6MTNneWhPa3YycEZJZ19fWmY3azNIX0hXX0VhRGcxWUt1TjFlME12NVZfVTNpX1A0MA?oc=5",
-      "medio": "Plano Informativo",
-      "fecha": "2026-11-21T19:11+00:00",
+      "titulo": "Cine, música y cultura italiana",
+      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjNDQwa2pjdXU0R2U0MTd2YTA4MHlWWHNIdGpYc0ZacUlyTXpKZ3ozaHV0S1JfTTV6SlFLdW15U2EyQm10UXI0WVFXZDhxSG1DZWplYnpWbUhnSVRueGxv?oc=5",
+      "medio": "Diario El 9 de Julio",
+      "fecha": "2026-11-23T12:12+00:00",
       "tema": "Cultura"
     },
     {
