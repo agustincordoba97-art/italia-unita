@@ -1,12 +1,12 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-24T06:05+00:00",
+  "actualizado": "2026-11-24T20:40+00:00",
   "items": [
     {
-      "titulo": "Reflexión sobre la inmigración italiana y el legado piamontés en el departamento de Colonia",
-      "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcVV6ZnpqakVUMWVQclk5TVF2QVE4WEZrVTBwS2FMbEJUZURRMUYxMTdORWpvTTBmSUs4Rm9XQW9IUnNVWlJ6UjhMVW5rVkZpQU40OEpUT2djMDVURXVBU3JYalVicXVOMWQ2RC1jTU1Bem1ISE9rOUZfY1gtNFJRaFFibFpmV203SmtxRnNMUjd6RFBZWjVwRk9zSXFOU083SXVHbUJHZ1JUWGdaMkVOY3lwMk1QeXhJY3ZGLTZiY0NuenVCemc?oc=5",
-      "medio": "Helvecia",
-      "fecha": "2026-11-21T14:33+00:00",
+      "titulo": "Los secretos del surf en un encuentro temático en la UTN",
+      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNTg0NkVQQnZCVzAxZlIwM1NlRk9GM3JKOUxjMkNscThmX1RrUmFXVTFaT3R3YWJuWnkzN1N1bG5ZNm81bEstcXZQaGs0dk44Z2E0Z0R0T210RDkzdGJHbWM0WXZOTXQwcXFxZ291QUsxcDhqbEZOeHBzT2xaY21pWW5EUVRUdGdtNzJjYUVQMA?oc=5",
+      "medio": "Diario La Capital de Mar del Plata",
+      "fecha": "2026-11-22T21:50+00:00",
       "tema": "Comunidad"
     },
     {
@@ -17,18 +17,11 @@ window.NOTICIAS = {
       "tema": "Consulado"
     },
     {
-      "titulo": "Un referente de la cocina italiana tradicional y la hospitalidad en Ibiza",
-      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQXzRfcXJIOGxiTlNMNVlTci03UHgycXctY3VadWp6dUZtR0lGQkV1R1UwM2NGeGMybnF2MzAtSVN0aW14TGtMM2J6QnlubkU3a1g3WDMweW1YQjdyOUcxcEhfOWpCMmE2WW1FZU5QeUgxX0daU1Bxc0VTMXdHVkJTVGQyZENqYTVwU2o1OHRDNk9UUnZoa0thWjhia1dvQ2tWNld3anhiQ09hOXJWa25qalNwc3nSAboBQVVfeXFMTkZ1Vi03dkJmM1Jpc3JKSURwZzFSaXpGUFZGR2M2RlR3d1gwSVliUWMwLXhEUzRNZG9IRm5SMjhqMzJPN2dzQ2xNVkcwU0w0NUhHdWVkYkxHRHdpc1k5cTVMRzhfYzh0VGVVdHZiWEpXQTk4aWNkRjJHMEZ2Y2FzWWZ2dDVZZHA5WWo2ZGRYZThiWlBXSmFmMW82QVRUeGJyOTBXd0x5WFdPeHdINGt5TmJrbkV2ZjhyeWdR?oc=5",
-      "medio": "Diario de Ibiza",
-      "fecha": "2026-11-24T05:00+00:00",
+      "titulo": "De Sicilia a Mendoza: la historia de Antonietta Recupero y su lucha por mantener viva la cultura italiana",
+      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcGVoSXJ2UV9aM3FJc2JVS1hvekNKVXRGVmw0b0ZjcWhBZW5aZGstdC16VWFnRTVrSi12cThuWEY2a1hFUTZEenJya1pWUWthU3BSWnFpMDZsN0l3Tm94eEtjNHB0YmtiQTJhT1pnZW5pS09wdEZVTi04T3V0eVVzd2pwZ0ZXQUNRN09jZkVTMTV6RmpHMWhDMVFBVHFaTnpfRHFxd18zWlFZVjNEWkZzWXRqSzBSZ0ZLVW5GLVE1WQ?oc=5",
+      "medio": "617 News",
+      "fecha": "2026-11-24T15:54+00:00",
       "tema": "Cultura"
-    },
-    {
-      "titulo": "El teatro municipal de Tres Lomas cerrará el año con dos funciones",
-      "enlace": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Nd3pIZkFxdUlHTkxmXzdKRWp6VWR4UkhBVHRPek9CeVJKQnZNcGl6SDNURG02VktLek1qVl9mdno1STJWUXlFa3NhRi1YQlVTZEhj?oc=5",
-      "medio": "Veradia.com",
-      "fecha": "2026-11-21T10:16+00:00",
-      "tema": "Patrimonio"
     },
     {
       "titulo": "Acuerdo entre Italia y Argentina para incorporar fragatas, patrulleros y buques anfibios",
@@ -38,11 +31,18 @@ window.NOTICIAS = {
       "tema": "Italia y Argentina"
     },
     {
-      "titulo": "La historia del dulce creado por inmigrantes italianos en Venezuela en los años 70 que hoy tiene en España el 20% de su negocio internacional",
-      "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQOVBDNWFrcGJNMjQ0OFlUVHBjMlB3dXdfTHNwMFptbHEyVnJaVElHQTRwMU5PeUlqYzlaMkl4RFFGeXIwQkpuczBzaWRmUXdUVUlVbVhFUjByT2JTR3JlblgwQ1AySV8yMmJDbGE3eHpBQ3NOTjcteVdtTUU5cmZQajBQX0pTWmZDcG9FTnBUY2FlWC1kNUNYXzJKYlItNzZGQ1JYd2tRa2Y5UnhSc1VIRy1aczJyZTdwNU1udk42MlRXemp0T19xQ3ZQX1FFcXNZQ2l5U1R5YVhjQ0gta2ZlUHViRUFTYnJLbmtNNkhLSjlDZ3RrY3dCdF80RnJVczByYzktS1E4bTZHMjhrX0lj0gGUAkFVX3lxTE42dDBHWnpzSGVlY0UyVTBEY1NGdDUxTW01YmtRcElxUWV4SXJNcFBQbWFraXdWUGh3NzdTdXJCN0RQclNnRVNqMjVPWDZhbXFGanFacXF1eklHVjF3bUk4dkh4aXJWUW10U0E5a0NWb3JVTjh0N3BYQVZVZlo2UmlWMUtBZEpWMVRxRTd5ZmF5THJSX1lOek1ZYlJKS1FmYXl4VHRhbEk2TndIM1FSUFItRFhqYjl6bWJXRTgzU3dCaE1OMTF2S2IwUFZGSTVwY1FVU2FxNUFlbW9ZaVNGNUNyWklMTDRaaDlYaUJVYVcwVzBkMS1CZ3FvLVhjRkloNUZaTGZPWFBwSVdYRTNBRE5SamxydQ?oc=5",
-      "medio": "Vozpopuli",
-      "fecha": "2026-11-21T07:00+00:00",
+      "titulo": "Berisso promueve el compostaje entre las colectividades",
+      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVW9oUjI2U0p6cFFjT0FLcjZmeHBiR0tfZmxYdkI1YkExb1ZEYmJiUGVSWEZYN2RfTlJQSkdEMTN6NERrWWdDYklnWGd2NjR4UmlEWWlHX1p4U1A0NUtTeFV6NWVoZzJtTnBmUkNxWWZkMmVjamFPYlNMeWVMVTdybE15ZzBpTlBoS0FPbzZXc3Jpa1VUWHZxM18wNA?oc=5",
+      "medio": "Berisso Ciudad",
+      "fecha": "2026-11-22T14:42+00:00",
       "tema": "Comunidad"
+    },
+    {
+      "titulo": "La escuela multicultural de Roma rebate a Meloni: \"Aquí nadie es extranjero\"",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1V2SzJHQVpRVWt3WXk1UEE1LTRoUzRtN01IWTBhcWV6WVM3SXlZTUN5RzFESEN0NUxIZTZGN2t6Q05IRlBYMEZ6elJiZklyWHVBSnhoYWhXb3ItVUxrQVZFTGx2RVpKN3UxQXo3V2JhR0VrRjhGYXpROVhhdG1sUkUtc2JiNWV1MjJUX05LSXN5M2VaSEpnUFBXTmNYZFBZeDNGZXNrSWZLR3lheTd6SHFIVURlQWtDQllNWHdORFTSAcABQVVfeXFMT3NVdksyR0FaUVVrd1l5NVBBNS00aFM0bTdNSFkwYXFlellTN0l5WU1DeUcxREhDdDVMSGU2RjdrekNOSEZQWDBGenpSYmZJclh1QUp4aGFoV29yLVVMa0FWRUxsdkVaSjd1MUF6N1diYUdFa0Y4RmF6UTlYYXRtbFJFLXNiYjVldTIyVF9OS0lzeTNlWkhKZ1BQV05jWGRQWXgzRmVza0lmS0d5YXk3ekhxSFVEZUFrQ0JZTVh3TkRU?oc=5",
+      "medio": "20 Minutos",
+      "fecha": "2026-11-21T10:46+00:00",
+      "tema": "Consulado"
     }
   ]
 };
