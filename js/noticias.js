@@ -1,6 +1,6 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-23T22:04+00:00",
+  "actualizado": "2026-11-24T06:05+00:00",
   "items": [
     {
       "titulo": "Reflexión sobre la inmigración italiana y el legado piamontés en el departamento de Colonia",
@@ -10,17 +10,17 @@ window.NOTICIAS = {
       "tema": "Comunidad"
     },
     {
-      "titulo": "“La colectividad italiana atraviesa su peor momento”: la advertencia de un candidato al COMITES en Mendoza",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXkteFpCZDdDcTAzT3Y4ZlpGNy1mQ3B5U3R5Qk1LT2pLa0FWRElPTmw5dE96Z0kxN2huYU12a0ltM04tUjIxbE5ZaURwMURjdDZQN283V1R0c3NTS3kyWXc4ZGZ6M2xCYkEzcDUxbG5XRnNBRTdtRjlHNU1LNjY4ZHhJQzFrbjFGLUZINi1YRm5jZjVablhtdDQtemRncHZtZUhRdDctVGU2cV9nWktHWDVmNUhLSzdoU2VuVURn?oc=5",
-      "medio": "617 News",
-      "fecha": "2026-11-20T20:04+00:00",
+      "titulo": "Brillante inauguración de la XXVII edición de la Exposición de Arte de la Asociación Italiana",
+      "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTUZCQ2VLbXBLdzZkOWxnYnlRQ3pVZklJa04tcFlkMXcweElMT3oxZHExbDl4LWNSQjEzdHZCQnFXQkR1NVhseFE3d0l4ZXpKem95aWdyamxUUkE3aDdxVTR3cWFULTgwalgycVRyUHlDc3FHeWx4alpiQk5VSmIzRk9qWWhEOVpQODBxdDlacnM2cDRkZmxoT0pKazQxVV9zbFZlWjdyRTFLVEQ4Y0hyazZRQmdzSEdUd2UtbFRzenZfS0ZXT1HSAcYBQVVfeXFMT01GQkNlS21wS3c2ZDlsZ2J5UUN6VWZJSWtOLXBZZDF3MHhJTE96MWRxMWw5eC1jUkIxM3R2QkJxV0JEdTVYbHhRN3dJeGV6SnpveWlncmpsVFJBN2g3cVU0d3FhVC04MGpYMnFUclB5Q3NxR3lseGpaYkJOVUpiM0ZPalloRDlaUDgwcXQ5WnJzNnA0ZGZsaE9KSms0MVVfc2xWZVo3ckUxS1REOGNIcms2UUJnc0hHVHdlLWxUc3p2X0tGV09R?oc=5",
+      "medio": "Diario Resumen",
+      "fecha": "2026-11-22T23:27+00:00",
       "tema": "Consulado"
     },
     {
-      "titulo": "Cine, música y cultura italiana",
-      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjNDQwa2pjdXU0R2U0MTd2YTA4MHlWWHNIdGpYc0ZacUlyTXpKZ3ozaHV0S1JfTTV6SlFLdW15U2EyQm10UXI0WVFXZDhxSG1DZWplYnpWbUhnSVRueGxv?oc=5",
-      "medio": "Diario El 9 de Julio",
-      "fecha": "2026-11-23T12:12+00:00",
+      "titulo": "Un referente de la cocina italiana tradicional y la hospitalidad en Ibiza",
+      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQXzRfcXJIOGxiTlNMNVlTci03UHgycXctY3VadWp6dUZtR0lGQkV1R1UwM2NGeGMybnF2MzAtSVN0aW14TGtMM2J6QnlubkU3a1g3WDMweW1YQjdyOUcxcEhfOWpCMmE2WW1FZU5QeUgxX0daU1Bxc0VTMXdHVkJTVGQyZENqYTVwU2o1OHRDNk9UUnZoa0thWjhia1dvQ2tWNld3anhiQ09hOXJWa25qalNwc3nSAboBQVVfeXFMTkZ1Vi03dkJmM1Jpc3JKSURwZzFSaXpGUFZGR2M2RlR3d1gwSVliUWMwLXhEUzRNZG9IRm5SMjhqMzJPN2dzQ2xNVkcwU0w0NUhHdWVkYkxHRHdpc1k5cTVMRzhfYzh0VGVVdHZiWEpXQTk4aWNkRjJHMEZ2Y2FzWWZ2dDVZZHA5WWo2ZGRYZThiWlBXSmFmMW82QVRUeGJyOTBXd0x5WFdPeHdINGt5TmJrbkV2ZjhyeWdR?oc=5",
+      "medio": "Diario de Ibiza",
+      "fecha": "2026-11-24T05:00+00:00",
       "tema": "Cultura"
     },
     {
