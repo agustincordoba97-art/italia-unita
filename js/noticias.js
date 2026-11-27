@@ -1,26 +1,26 @@
 /* Archivo generado automáticamente por .github/workflows/noticias.yml (scripts/actualizar_noticias.py). No editar a mano. */
 window.NOTICIAS = {
-  "actualizado": "2026-11-27T04:17+00:00",
+  "actualizado": "2026-11-27T19:29+00:00",
   "items": [
     {
-      "titulo": "Daniel Angelici se reunió con el presidente del Senado italiano en la previa de las elecciones del COMITES",
-      "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNUlIzLTJnY2o3Qnd6TFFtNmY4ckQwaFp4RTdxamp1dDNpdG1ZRk1PaDA3c3BOUm9WZGJ2OXg1ZGNXNU9tMHNwQzc0MG9kWF9uTU9RNVgxXy1TTmtDd2JlSG1iOEUwcEJDWDJ0NnlwOTZTZFJXU0J1ZnBvXzdPOVBwbjBDY1pBYmZYcVJDN21HTk5mUV9JWHBmemtUM2ctU21HRjZuNTBpVDkwWWhQQnhvYTU3OHVXZG5reGdwcks1MmhNWEl6aU40UEFROHdZUklSQmZKeC1SYmNKMzZlOWh1Q1gwZ0V4OXFDRUNYZlctLThZT203NWlmMUFYNXl1RUV3OUHSAZACQVVfeXFMUEdPOVFQVUluQm4wcjBWUE9RSGlwVkxjLTdvTVVYdU92ekRmaXMtMGxuUEZtVWlzQkhvM0c4SDg3aU1Cb052Yl9tVXhVWjhjdzktdlJYY1E2NEt5WUlpbkNJN0dPdW1kNW5wTVA0dlNrbUV4NGRPNk1DZlpaNksxOFpFaDZkMXV4eGZGOW9lbFdvQlpHM0E4SGNfQlN1aEotaU9XYllRY0MwTDRXUUNJT0pvMWswWlpJZWJzUmk3SHhuTXFaRmdsdUg1NjE3WWVXdkpoWVdkN21laDQ1eVlnUmFmQm12ZzlmSVpRNjdSS2duaEVfSXZCaGNRTl9jUTRNWVdERHNTZHFGTXNGNFZ4bFg?oc=5",
-      "medio": "Agencia Noticias Argentinas",
-      "fecha": "2026-11-26T21:59+00:00",
+      "titulo": "Elecciones COMITES 2026: USCIL propone renovar la representación de la colectividad italiana en la región L...",
+      "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNN2RYUGJxaV8yUHk1emFyOG95Z1FEZUI3SXNTSEpDc0lZTDVDMmNGOWRCM250eXhhX2Qzb2lMNms4WWsxWDZvNWFtUUxkd1RFWjVBNV9uUHFuTlk2eGNaMXFEcU9HbTlwVkFkazlhc1RsVkU2RGhDcFBYU0ZrODdWTTNieHdzR2JJMHBVU3ozS3EtMzR6UTZGeWNqdVVSZnNxaE1YVEFqNUJzeEpsdlhCTWdxczU2bXBlUk5tZVhjeFFlTGc4RS1ZSWVQel9WelNZWXZwNnAzOGxqMlN4d3ZmOGhVdS1YZDVCY2FydUhKVWhjWDFHa1FuS1lSMEZlQkdOZDNTR3FB0gGGAkFVX3lxTE03ZFhQYnFpXzJQeTV6YXI4b3lnUURlQjdJc1NISkNzSVlMNUMyY0Y5ZEIzbnR5eGFfZDNvaUw2azhZazFYNm81YW1RTGR3VEVaNUE1X25QcW5OWTZ4Y1oxcURxT0dtOXBWQWRrOWFzVGxWRTZEaENwUFhTRms4N1ZNM2J4d3NHYkkwcFVTejNLcS0zNHpRNkZ5Y2p1VVJmc3FoTVhUQWo1QnN4Smx2WEJNZ3FzNTZtcGVSTm1lWGN4UWVMZzhFLVlJZVB6X1Z6U1lZdnA2cDM4bGoyU3h3dmY4aFV1LVhkNUJjYXJ1SEpVaGNYMUdrUW5LWVIwRmVCR05kM1NHcUE?oc=5",
+      "medio": "Rosario3",
+      "fecha": "2026-11-27T15:39+00:00",
       "tema": "Comunidad"
     },
     {
-      "titulo": "Es oficial según el Consulado de Italia: la ciudadanía italiana por beneficio de ley para hijos menores pasa a ser gratuita hasta mayo de 2029",
-      "enlace": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOeHU5X2lUZUdqR2pqalNkWXV0NDB2dEFFUlJaY0NlVnhfa0ZxMXQ1UHNaNjVMRm4za1ZtZUZRNGxmT0k1ZGxDRTlZem5fYUVrTnVhNTZtMWZKT29qb2dzMnlfcWprNXU4NldDTDRCY1RCYk5veDhrZnk1X0FXRDNjN1hSZzFyZk9aeUp4RkRvdVVFb3ZtSkpFYUtOYzNhWWdhaXdSQzZHbU9RU0xHQ05vd3RzTXBuZmNaUjBjcGtwXzNmQ2JZS2I2WnF6OTRYQ1dzVlBpVXE3MFdiMXQyMzA3VG0xb0hMcmVwck9kdFVSaWRWOUhfVG90dUpQODZabS16Z2FkMmlqNEpVWklJeU8xWkJjdXZrbFXSAbICQVVfeXFMTXBnQWdYeG4tVXg2bkpRa3Mwbkd3Ykx3UjExZERNUll5eU9XUk1XLW5TVVlVN0RCZzg3R1RMTDRsaFR4b3hzcjdaY1lENF9iRGI4LVBndmd6VVdpQmwtNXVPeVN4NWZNWkRqVXl5NnVvN0QzdXZsLTBiQ21GQ3BJNUswQzdUWDBQNXhaMmlXaHJ6MGxaUVFNcFlfdko4QXBiLXB2YU1oMU1RVUx5ZHZIbGpPVU9PQ2pXOGdKcy1XSWJORnE1dWVvTG5FdzdOR2xZZlQ4MUx6bElDVGtKM0t6anhOQlNiYXdfU2hBam04X0djZm5lQjJvWTN5aGpGV01ITVBJTEVhWHE3bmZTRURNejAtcTl3bFVMQ2xBdENob01oSFR5cVM5Vlh3NjJNSExKRml3?oc=5",
-      "medio": "El Cronista",
-      "fecha": "2026-11-26T12:47+00:00",
+      "titulo": "Ciudadanía italiana: «Cambiaremos su pésima ley», dice Porta a Tajani",
+      "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xUVFsZkIzODEyVWo4SDI1NUNvckZHRldLclExSjdDMEJsSU9hdVQzdU5KQWxLeXZIYVpMTGhNT05SRXVPZU5xbE9ERmRySDh0ZThCclRiUERtWVlMTjBueG9mdFdFc0J5?oc=5",
+      "medio": "Insieme",
+      "fecha": "2026-11-27T12:44+00:00",
       "tema": "Consulado"
     },
     {
-      "titulo": "“Caruso-Passione 2.0”, un homenaje a la música y la cultura italiana a través de la danza, llega al Teatro Experimental de Jalisco",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNmJNaGFsWGpiaUltMk1BUG0wdndYU1dvR1JRZ2RqelI5TU9OUjVmV0wzQ1VWaVgxWjVXYVB3a1VBMUR4N2NPSVZ0S0ZwdHB5ZHRKazlwVWhzcTlMUTdKSlRsajNnOW4td19sUjdVRV9xSVVVbmhiS1VTYTk0NldMMlN2UHlyYjA4ek9YRlNHdVR6YnEwNkJzRHhLV21nLTZyTGVIdWxaYjR6X3lKVGloMXNGLUVCTXYySHBYTGRR?oc=5",
-      "medio": "Universidad de Guadalajara (UDG)",
-      "fecha": "2026-11-27T00:34+00:00",
+      "titulo": "Paraguay celebró la semana de la cocina italiana con desembarco de nuevos vinos",
+      "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOE52ZWg2VXl5MC16M0pxUzBmN0g5TmZIeHpTZGIwR29BYi1WRGFuUXgtN0g1V0JvWEZDZ0Q4aG1MdTA0R1pWeVRDTVU1anBWUENFdFBjQ1pKYVk2SmNOSWdvUXpYa3c2Mnlsbm1HQld6YzVyR0hvZnJrd1RNSUUzeFE3X25NUm81dFdnbkJ6U0l0ek1fMGo1WTJtclNHSjBfOXlOUmRhS3AyeE9KZVF0UDFlcWI3QQ?oc=5",
+      "medio": "Azərtac",
+      "fecha": "2026-11-27T16:54+00:00",
       "tema": "Cultura"
     },
     {
